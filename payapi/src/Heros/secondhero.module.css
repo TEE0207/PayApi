@@ -1,0 +1,43 @@
+.allContentContainer{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rems;
+    background-color: #f2f2f2;
+}
+
+.pictureContainer{
+    width: 30%;
+    height: auto;
+}
+
+.picImage{
+    width: 100%;
+    height: auto;
+}
+
+.headingAndParagraphContainer{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-bottom: 3rem;
+    /* background-color: aqua; */
+}
+
+.headingContainer{
+    width: fit-content;
+    height: auto;
+    color: #36536B;
+}
+
+.paragraphContainer{
+    width: 60%;
+    height: auto;
+    line-height: 1.4rem;
+}
