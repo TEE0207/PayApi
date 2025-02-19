@@ -1,0 +1,38 @@
+.inputAndSchduleContainer{
+   width: fit-content;
+    height : auto;
+    display : flex;
+    flex-direction : row ;
+    /* justify-content : space-between; */
+    background-color : white;
+    align-items: center;
+    border-radius : 5rem; 
+    column-gap: 2.7rem;  
+}
+
+.input {
+    border : none;
+    outline : none;
+    padding : 0.8rem 1.5rem;
+    border-radius : 5rem 0 0 5rem;
+    background-color : white;
+  
+}
+
+input::placeholder{
+ /* font-size: 1rem;
+ font-weight: bold; */
+ color: #36536B;
+}
+
+.buttonS {
+    border : none ;
+    outline : none ;
+     padding : 0.8rem 1.5rem;
+     border-radius : 5rem;
+     background-color :#ba4270;
+     color : white;
+     
+     color: #FBFCFE;
+}
+

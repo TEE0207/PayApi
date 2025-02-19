@@ -1,0 +1,15 @@
+.headings{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* padding: 20rem; */
+    background-color: #f2f2f2;
+    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+    background-size: 50%;
+    background-position: 120% 200%;
+    background-repeat: no-repeat;
+   
+}
+
+
+

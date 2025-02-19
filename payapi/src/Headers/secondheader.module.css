@@ -1,0 +1,41 @@
+.allContentContainer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headingEmailContactContainer{
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.7rem;
+}
+
+.headingContainer{
+    width: 65%;
+    font-size: 2rem;
+    color: #36536B;
+    /* background-color: antiquewhite; */
+}
+
+.emailContactContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+}
+
+.questionAndContact{
+    padding-left: 1rem;
+    color: rgba(108, 130, 148, 0.6);
+}
+
+.contact{
+  
+    color: rgb(108, 130, 148);
+}
