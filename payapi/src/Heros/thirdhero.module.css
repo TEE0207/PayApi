@@ -1,0 +1,50 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 4rem;
+        background-color: #f2f2f2;
+        background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+        background-size: contain;
+        background-position: 142% 0%;
+        background-repeat: no-repeat;
+      
+}
+
+.headingAndParagraphContainer{
+ width: 50%;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ padding-left: 10rem;
+ align-items: start;
+ row-gap: 1rem;
+ /* background-color: aquamarine; */
+}
+
+.headingContainer{
+    width: fit-content;
+    height: auto;
+    color: #36536B;
+}
+
+.paragraphContainer{
+ width: 70%;
+ color: #6C8294;
+ line-height: 1.7rem;
+}
+
+.the2phonesContainer{
+    width: 46.5%;
+    height: auto;
+}
+
+.phonesImage{
+    width: 100%;
+    height: auto;
+}

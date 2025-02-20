@@ -3,6 +3,7 @@ import SecondHeaderComponent from "./Headers/SecondHeaderComponent"
 import TheHeadings from "./Headers/TheHeadings"
 import FirstHeroComponent from "./Heros/FirstHeroComponent"
 import SecondHeroComponent from "./Heros/SecondHeroComponent"
+import ThirdHeroComponent from "./Heros/ThirdHeroComponent"
 import InputNschduleComponent from "./OtherComponent/InputNSchduleComponent"
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
 {/* <SecondHeaderComponent /> */}
 {/* <TheHeadings /> */}
 {/* <FirstHeroComponent /> */}
-<SecondHeroComponent />
+{/* <SecondHeroComponent /> */}
+<ThirdHeroComponent />
     </div>
        
   )
