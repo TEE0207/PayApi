@@ -1,5 +1,6 @@
 import FirstFooterComponent from "./Footers/FirstFooterComponent"
 import SecondFooterComponent from "./Footers/SecondFooterComponent"
+import ThirdFooterComponent from "./Footers/ThirdFooterComponent"
 import NavBar from "./Headers/NavBar"
 import SecondHeaderComponent from "./Headers/SecondHeaderComponent"
 import TheHeadings from "./Headers/TheHeadings"
@@ -22,7 +23,8 @@ function App() {
 {/* <ThirdHeroComponent /> */}
 {/* <LogoComponent /> */}
 {/* <FirstFooterComponent /> */}
-<SecondFooterComponent />
+{/* <SecondFooterComponent /> */}
+<ThirdFooterComponent />
     </div>
        
   )

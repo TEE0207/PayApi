@@ -1,0 +1,72 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem 6rem;
+    background-color: #1B262F;
+    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+    background-size: 40%;
+    background-position: 128% 10%;
+    background-repeat: no-repeat;
+}
+
+
+.logoAndTheThreeTextContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.theThreeTextContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+
+}
+
+.theThreeSocialMediaContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(251, 252, 254, 0.5);
+}
+
+a:hover{
+ color: #FBFCFE;
+}
+
+.socialMediaContainer{
+    width: 24px;
+    height: 24px;
+}
+
+.socialMediaContainer:hover{
+    background-color: #DA6D97;
+}
+
+.socialImage{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
