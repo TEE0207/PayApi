@@ -1,5 +1,5 @@
 import phone from "../assets/home/desktop/illustration-phone-mockup.svg"
-import InputNschduleComponent from "../OtherComponent/InputNSchduleComponent"
+import InputNschduleComponent from "../../OtherComponent/InputNSchduleComponent"
 import styles from "./secondheader.module.css"
 
 export default function SecondHeaderComponent (){

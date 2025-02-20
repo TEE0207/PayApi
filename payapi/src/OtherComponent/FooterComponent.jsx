@@ -1,4 +1,4 @@
-import styles from "./thirdfooter.module.css"
+import styles from "./footer.module.css"
 import facebook from "../assets/shared/desktop/facebook.svg"
 import twitter from "../assets/shared/desktop/twitter.svg"
 import linkedin from "../assets/shared/desktop/linkedin.svg"
@@ -7,7 +7,7 @@ import logo from "../assets/shared/desktop/logo.svg"
 
 
 
-export default function ThirdFooterComponent(){
+export default function FooterComponent(){
 
     return(
         <div>

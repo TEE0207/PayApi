@@ -15,11 +15,12 @@ export default function NavBar(){
 
                     </div>
                     <div className="nav-container">
-                        {/* <ul>
-                            <NavLink to ={"/"}><li>Pricing</li></NavLink>
+                        <ul>
+                            <NavLink to ={"/"}><li>index</li></NavLink>
+                            <NavLink to ={"pricing"}><li>Pricing</li></NavLink>
                             <NavLink to ={"/about"}><li>About</li></NavLink>
                             <NavLink to = {"/contact"}><li>Contact</li></NavLink>
-                        </ul> */}
+                        </ul>
 
 
                         

@@ -1,5 +1,5 @@
 
-import style from "./OtherComponent.module.css"
+import style from "./inputnschdule.module.css"
 
 export default function InputNschduleComponent(){
 
