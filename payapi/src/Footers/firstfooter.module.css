@@ -1,0 +1,110 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+}
+
+.firstIconHeadingParagraphContainer{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.firstIconContainer{
+    width: 106px;
+    height: 106px;
+}
+
+.iconContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.firstHeadingContainer{
+    width: fit-content;
+    height: auto;
+    color: #36536B;
+}
+
+.firstParagraphContainer{
+    width: 64%;
+    height: auto;
+    text-align: center;
+    color: #6C8294;
+    font-size: 1rem;
+
+}
+
+.secondIconHeadingParagraphContainer{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.secondIconContainer{
+    width: 106px;
+    height: 106px;
+}
+
+.iconContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.secondHeadingContainer{
+    width: fit-content;
+    height: auto;
+    color: #36536B;
+}
+
+.secondParagraphContainer{
+    width: 65%;
+    height: auto;
+    text-align: center;
+    color: #6C8294;
+}
+
+
+
+.thirdIconHeadingParagraphContainer{
+
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.thirdIconContainer{
+    width: 106px;
+    height: 106px;
+}
+
+.iconContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.thirdHeadingContainer{
+    width: fit-content;
+    height: auto;
+    color: #36536B;
+}
+
+.thirdParagraphContainer{
+
+    width: 65%;
+    height: auto;
+    text-align: center;
+    color: #6C8294;
+    font-size: 1rem;
+}
