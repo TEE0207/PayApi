@@ -5,6 +5,7 @@ import FirstHeroComponent from "./Heros/FirstHeroComponent"
 import SecondHeroComponent from "./Heros/SecondHeroComponent"
 import ThirdHeroComponent from "./Heros/ThirdHeroComponent"
 import InputNschduleComponent from "./OtherComponent/InputNSchduleComponent"
+import LogoComponent from "./OtherComponent/LogosComponent"
 function App() {
   
 
@@ -14,9 +15,10 @@ function App() {
 {/* <InputNschduleComponent /> */}
 {/* <SecondHeaderComponent /> */}
 {/* <TheHeadings /> */}
-{/* <FirstHeroComponent /> */}
+<FirstHeroComponent />
 {/* <SecondHeroComponent /> */}
-<ThirdHeroComponent />
+{/* <ThirdHeroComponent /> */}
+{/* <LogoComponent /> */}
     </div>
        
   )

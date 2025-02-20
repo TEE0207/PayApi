@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
     position: relative;
@@ -32,12 +32,19 @@
 
 }
 
+.paragraphAndLogoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .paragraphContainer{
     color: white;
-    width: 50%;
-    font-size: 0.9rem;
+    width: 30%;
+    font-size: 0.92rem;
     height: auto;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .aboutButtonContainer{
@@ -53,49 +60,3 @@
     color: white;
 }
 
-.allLogoContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 2rem;
-}
-
-.first2LogoContainer{
-    display: flex;
-    flex-direction: column;
-    row-gap: 2.6rem;
-}
-
-.second2LogoContainer{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.7rem;
-    align-items: center;
-}
-
-.last2LogoContainer{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.7rem;
-}
-
-/* .teslaContainer{
-    width: 100px;
-    height: 30px;
-}
-
-.teslaLogoImg{
-    width: 100%;
-    height: 100%;
-}
-
-.oracleContainer{
-    width: 100px;
-    height: 20px;
-}
-
-.oracleLogoImg{
-    width: 100%;
-    height: 100%;
-
-} */
