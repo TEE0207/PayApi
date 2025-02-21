@@ -9,6 +9,7 @@ export default function NavBar(){
 
 
             <div className="logo-nav-schdule-container">
+                
                 <div className="logo-nav-container">
                     <div className="logo-container">
                         <img src={logo} alt="logo" />
