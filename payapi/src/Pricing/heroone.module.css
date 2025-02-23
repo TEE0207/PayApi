@@ -1,0 +1,46 @@
+.allContentContainer{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingParagraphMoneyContainer{
+    width: 100%;
+    height: auto;
+}
+
+.headingContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--primary-color);
+}
+
+.paragraphContainer{
+    color: var(--blue-light-color);
+    width: 70%;
+    line-height: 1.25rem;
+}
+
+.moneyContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+}
+
+.allTextAndMarkIcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.markAndTextContainer{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.7rem;
+
+}
