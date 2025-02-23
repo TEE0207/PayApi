@@ -1,6 +1,6 @@
-import bank from "../assets/home/desktop/icon-banking-and-coverage.svg"
-import finance from "../assets/home/desktop/icon-personal-finances.svg"
-import payment from "../assets/home/desktop/icon-banking-and-coverage.svg"
+import bank from "../../assets/home/desktop/icon-banking-and-coverage.svg"
+import finance from "../../assets/home/desktop/icon-personal-finances.svg"
+import payment from "../../assets/home/desktop/icon-banking-and-coverage.svg"
 import styles from "./firstfooter.module.css"
 
 

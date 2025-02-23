@@ -1,23 +1,27 @@
 import {Outlet} from "react-router-dom"
 import NavBar from "./NavBar"
 import FooterComponent from "./FooterComponent"
+import styles from "./rootlayout.module.css"
+
+
+
 export default function RootLayout(){
 
     return(
         <div>
-            <div className="mainPageContainer">
+            <div className={styles.mainPageContainer}>
 
-                <div className="navBarContainer">
+                <div className={styles.navBarContainer}>
                     <NavBar />
 
                 </div>
 
-                <div className="outletContainer">
+                <div className={styles.outletContainer}>
                     <Outlet />
 
                 </div>
 
-                <div className="footerContainer">
+                <div className={styles.footerContainer}>
                     <FooterComponent />
 
                 </div>

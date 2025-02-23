@@ -1,4 +1,4 @@
-import InputNschduleComponent from "../OtherComponent/InputNSchduleComponent";
+import InputNschduleComponent from "../../OtherComponent/InputNSchduleComponent";
 import styles from "./secondfooter.module.css"
 
 

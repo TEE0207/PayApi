@@ -1,5 +1,5 @@
 
-import LogoComponent from "../OtherComponent/LogosComponent"
+import LogoComponent from "../../OtherComponent/LogosComponent"
 import styles from "./firsthero.module.css"
 
 

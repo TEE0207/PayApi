@@ -14,10 +14,11 @@
     background-size: 50%;
     background-position: -30% 110%;
     background-repeat: no-repeat;
+    
 }
 
 .headingParagraphAboutContainer{
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;

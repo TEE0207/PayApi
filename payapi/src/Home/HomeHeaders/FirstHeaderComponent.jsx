@@ -1,8 +1,8 @@
-import phone from "../assets/home/desktop/illustration-phone-mockup.svg"
+import phone from "../../assets/home/desktop/illustration-phone-mockup.svg"
 import InputNschduleComponent from "../../OtherComponent/InputNSchduleComponent"
-import styles from "./secondheader.module.css"
+import styles from "./firstheader.module.css"
 
-export default function SecondHeaderComponent (){
+export default function FirstHeaderComponent (){
 
     return(
 
@@ -31,8 +31,8 @@ export default function SecondHeaderComponent (){
 
                 </div>
 
-                <div className="phoneDeviceContainer">
-                    <img src={phone} alt="Phone" />
+                <div className={styles.phoneDeviceContainer}>
+                    <img src={phone} alt="Phone" className={styles.phoneImage} />
 
                 </div>
 

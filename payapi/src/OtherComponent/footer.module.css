@@ -6,8 +6,6 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 100%;
-    height: auto;
     padding: 1rem 6rem;
     background-color: #1B262F;
     background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
