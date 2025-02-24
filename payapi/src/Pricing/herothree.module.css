@@ -3,17 +3,14 @@
     height: auto;
     display: flex;
     flex-direction: column;
-   
-    background-color: aqua;
 }
 
 .headingParagraphMoneyContainer{
-    width: 70%;
+    width: 100%;
     height: auto;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
-    
     row-gap: 1rem;
     
 }
@@ -26,8 +23,7 @@
 
 .paragraphContainer{
     color: var(--blue-light-color);
-    width: 100%;
-   
+    width: 70%;
     line-height: 1.25rem;
 }
 

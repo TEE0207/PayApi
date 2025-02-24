@@ -1,0 +1,70 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingParagraphMoneyContainer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
+
+.headingContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--primary-color);
+}
+
+.paragraphContainer{
+    color: var(--blue-light-color);
+    width: 68%;
+    line-height: 1.25rem;
+}
+
+.moneyContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+}
+
+.allTextAndMarkIcon{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border-bottom: 1px solid var(--blue-normal-secondary-color);
+    border-top: 1px solid var(--blue-normal-secondary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.markAndTextContainer{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.7rem;
+
+}
+
+.buttonContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.button{
+    border : 1px solid var(--blue-normal-secondary-color);
+    outline: none;
+    padding: 0.65rem 1rem;
+    border-radius: 1rem;
+    color: var(--blue-normal-secondary-color);
+
+}

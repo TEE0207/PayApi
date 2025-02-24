@@ -2,7 +2,7 @@ import InputNschduleComponent from "../../OtherComponent/InputNSchduleComponent"
 import styles from "./secondfooter.module.css"
 
 
-export default function SecondFooterComponent(){
+export default function SecondHomeFooterComponent(){
 
     return(
         <div>

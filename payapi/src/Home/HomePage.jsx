@@ -3,7 +3,7 @@ import FirstHeroComponent from "./HomeHeros/FirstHeroComponent"
 import SecondHeroComponent from "./HomeHeros/SecondHeroComponent"
 import ThirdHeroComponent from "./HomeHeros/ThirdHeroComponent"
 import FirstFooterComponent from "./HomeFooters/FirstFooterComponent"
-import SecondFooterComponent from "./HomeFooters/SecondFooterComponent"
+import SecondHomeFooterComponent from "./HomeFooters/SecondHomeFooterComponent"
 import styles from "./homepage.module.css"
 
 
@@ -16,7 +16,7 @@ export default function HomePage(){
            <SecondHeroComponent />
            <ThirdHeroComponent />
            <FirstFooterComponent />
-           <SecondFooterComponent />
+           <SecondHomeFooterComponent />
         </div>
     )
 }

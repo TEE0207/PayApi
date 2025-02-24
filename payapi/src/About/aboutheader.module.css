@@ -1,0 +1,51 @@
+.contentContainer{
+    
+        display: flex;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+        justify-content: start;
+        row-gap:2.6rem ;
+       
+    
+    
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 10rem 10rem 2rem 10rem;
+        background-color: #f2f2f2;
+        background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+        background-size: 50%;
+        background-position: 140% 130%;
+        background-repeat: no-repeat;
+    
+}
+
+.headingOneContainer{
+    width: 36%;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+    font-size: 1.2rem;
+}
+
+.headingAndParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 2rem;
+
+}
+
+.headingContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+}
+
+.paragraphContainer{
+    width: 48%;
+    height: auto;
+    color: var(--blue-light-color);
+    line-height: 1.2rem;
+}

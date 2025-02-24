@@ -38,8 +38,10 @@ export default function HeroOneComponent(){
 
                     </div>
 
+                    
+
                     <div className={styles.paragraphContainer}>
-                        {<p> Build and test using our core set of products with up to 100 API requests</p>}
+                        { <p> Build and test using our core set of products with up to 100 API requests</p>}
 
                     </div>
 
@@ -47,50 +49,52 @@ export default function HeroOneComponent(){
                         <h1>$0.00</h1>
 
                     </div>
+            
+
                 </div>
 
                 <div className={styles.allTextAndMarkIcon}>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{color : "#BA4270"}}  />
-                        <p>Transaction</p>
+                        <p style={{color : "#36536B"}}>Transaction</p>
                         
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{color : "#BA4270"}} />
-                        <p>Auth</p>
+                        <p style={{color : "#36536B"}}>Auth</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck  style={{color : "#BA4270"}}/>
-                        <p>Identity</p>
+                        <p style={{color : "#36536B"}}>Identity</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{display : "none"}} />
-                        <p style={{paddingLeft: "1.5rem", color : "#36536B"}}>Investment</p>
+                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Investment</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{display : "none"}}  />
-                        <p style={{paddingLeft: "1.5rem", color : "#36536B"}}>Assets </p>
+                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Assets </p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{display : "none"}} />
-                        <p style={{paddingLeft: "1.5rem", color : "#36536B"}}>Liabilities</p>
+                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Liabilities</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{display : "none"}} />
-                        <p style={{paddingLeft: "1.5rem", color : "#36536B"}}>Income</p>
+                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Income</p>
                     </div>
 
                 </div>
 
-                <div className="buttonContainer">
-                    <button>
+                <div className={styles.buttonContainer}>
+                    <button className={styles.button}>
                         Request Assess
 
                     </button>

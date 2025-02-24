@@ -1,8 +1,8 @@
 import { FaCheck } from "react-icons/fa6";
 import { useState, useEffect } from "react";
-import styles from "./herotwo.module.css"
+import styles from "./herothree.module.css"
 
-export default function HeroTwoComponent(){
+export default function HeroThreeComponent(){
 
 
     const [showParagraph, setShowParagraph] = useState(true);
@@ -34,19 +34,19 @@ export default function HeroTwoComponent(){
                 <div className={styles.headingParagraphMoneyContainer}>
 
                     <div className={styles.headingContainer}>
-                        <h3>Basic Plan</h3>
+                        <h3>Premium Plan</h3>
 
                     </div>
 
                     
 
                     <div className={styles.paragraphContainer}>
-                        {  <p> Launch your project with unlimited requests and no contractual minimums</p>}
+                        {<p>  Get tailored solutions, volume pricing, and dedicated support for your team</p>}
 
                     </div>
 
                     <div className={styles.moneyContainer}>
-                        <h1>$249.00</h1>
+                        <h1>$499.00</h1>
 
                     </div>
             
@@ -57,18 +57,18 @@ export default function HeroTwoComponent(){
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{color : "#BA4270"}}  />
-                        <p style={{color : "#36536B"}}>Transaction</p>
+                        <p style={{ color : "#36536B"}}>Transaction</p>
                         
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{color : "#BA4270"}} />
-                        <p style={{color : "#36536B"}}>Auth</p>
+                        <p style={{ color : "#36536B"}}>Auth</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck  style={{color : "#BA4270"}}/>
-                        <p style={{color : "#36536B"}}>Identity</p>
+                        <p style={{ color : "#36536B"}}>Identity</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
@@ -82,13 +82,13 @@ export default function HeroTwoComponent(){
                     </div>
 
                     <div className={styles.markAndTextContainer}>
-                        <FaCheck style={{display : "none"}} />
-                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Liabilities</p>
+                        <FaCheck style={{color : "#BA4270"}} />
+                        <p style={{color : "#36536B"}}>Liabilities</p>
                     </div>
 
                     <div className={styles.markAndTextContainer}>
-                        <FaCheck style={{display : "none"}} />
-                        <p style={{paddingLeft: "1.5rem",color:" rgba(54, 83, 107, 0.5)"}}>Income</p>
+                        <FaCheck style={{color : "#BA4270"}} />
+                        <p style={{color : "#36536B"}}>Income</p>
                     </div>
 
                 </div>

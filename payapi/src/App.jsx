@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import RootLayout from "./OtherComponent/RootLayout"
 import HomePage from "./Home/HomePage"
 import PricingPage from "./Pricing/PricingPage"
+import AboutPage from "./About/AboutPage"
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
 
      <Route path="/" element={<HomePage /> } />
      <Route path="/pricing" element={<PricingPage />} />
+
+     <Route path="/about" element={<AboutPage />} />
+
        
     </Route>
   ))
