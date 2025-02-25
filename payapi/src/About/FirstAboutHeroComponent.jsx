@@ -1,5 +1,7 @@
 import styles from "./firstabouthero.module.css"
 import picture from "../../src/assets/about/desktop/image-team-members.jpg"
+import { IoAdd } from "react-icons/io5";
+
 export default function FirstAboutHeroComponent(){
 
     return(
@@ -28,7 +30,53 @@ export default function FirstAboutHeroComponent(){
 
                 </div>
 
-          
+                <div className={styles.theThreeContentContainer}>
+
+                    <div className="firstTextAndNumberContainer">
+                        <div className="textContainer">
+                            <p>Team Member</p>
+                        </div>
+                        <div className="numberAndIconContainer">
+                            <div className="numberContainer">
+                                <h1>300</h1>
+                            </div>
+                            <div className="iconContainer">
+                            <IoAdd />
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="secondTextAndNumberContainer">
+                    <div className="textContainer">
+                            <p>Offices in the US</p>
+                        </div>
+
+                        <div className="numberContainer">
+                                <h1>3</h1>
+                            </div>
+                        
+                    </div>
+
+                    <div className="thirdTextAndNumberContainer">
+
+                        <div className="textContainer">
+                                <p>Transaction Analyzed</p>
+                            </div>
+                            <div className="numberAndIconContainer">
+                                <div className="numberContainer">
+                                    <h1>10M</h1>
+                                </div>
+                                <div className="iconContainer">
+                                <IoAdd />
+
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                </div>
 
 
             </div>

@@ -13,12 +13,11 @@ export default function NavBar(){
 
                 <div className={styles.logoNavContainer}>
                     <div className={styles.logoContainer}>
-                        <img src={logo} alt="logo" className={styles.logoImage} />
+                    <NavLink to ={"/"}><img src={logo} alt="logo" className={styles.logoImage} /></NavLink>
 
                     </div>
                     <div className={styles.navContainer}>
                         <ul className={styles.listContainer}>
-                            <NavLink to ={"/"}><li></li></NavLink>
                             <NavLink to ={"/pricing"}><li className={styles.page}>Pricing</li></NavLink>
                             <NavLink to ={"/about"}><li className={styles.page}>About</li></NavLink>
                             <NavLink to = {"/contact"}><li className={styles.page}>Contact</li></NavLink>
