@@ -1,0 +1,25 @@
+.contentContainer{
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    justify-content: start;
+    row-gap:2.6rem ;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5rem 0rem 2rem 5rem;
+    background-color: #f2f2f2;
+    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+    background-size: 50%;
+    background-position: 135% 110%;
+    background-repeat: no-repeat;
+
+}
+
+.headingContainer{
+width: 38%;
+height: auto;
+color: var(--blue-normal-secondary-color);
+font-size: 1.4rem;
+}
