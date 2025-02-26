@@ -1,0 +1,66 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   /* align-items: center;
+   justify-content: center; */
+   padding-left:23rem ;
+   padding-top: 3.5rem;
+   padding-bottom: 5rem;
+   
+    row-gap: 3.5rem;
+    background-color: var(--all-background-color);
+}
+
+.firstTitleAndTextContainer{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 4.5rem;
+  /* background-color: bisque; */
+  
+  
+}
+
+.secondTitleAndTextContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4.5rem;
+}
+
+.titleOneContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+
+}
+
+.textOneContainer{
+    width: 48.9%;
+    height: auto;
+    font-size: 0.9.5rem;
+    line-height: 1.4rem;
+   
+    /* background-color: blue; */
+    color: var(--blue-light-color);
+}
+
+.titleTwoContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
+
+}
+
+.textTwoContainer{
+    width: 55%;
+    height: auto;
+    font-size: 0.98rem;
+    line-height: 1.4rem;
+    color: var(--blue-light-color);
+}

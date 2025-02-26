@@ -32,15 +32,18 @@ export default function FirstAboutHeroComponent(){
 
                 <div className={styles.theThreeContentContainer}>
 
-                    <div className="firstTextAndNumberContainer">
-                        <div className="textContainer">
+                    <div className={styles.firstTextAndNumberContainer}>
+
+                        <div className={styles.textContainer}>
                             <p>Team Member</p>
                         </div>
-                        <div className="numberAndIconContainer">
-                            <div className="numberContainer">
+
+                        <div className={styles.numberAndIconContainer}>
+                            
+                            <div className={styles.numberContainer}>
                                 <h1>300</h1>
                             </div>
-                            <div className="iconContainer">
+                            <div className={styles.iconContainer}>
                             <IoAdd />
 
                             </div>
@@ -48,27 +51,27 @@ export default function FirstAboutHeroComponent(){
 
                     </div>
 
-                    <div className="secondTextAndNumberContainer">
-                    <div className="textContainer">
+                    <div className={styles.secondTextAndNumberContainer}>
+                    <div className={styles.textContainer}>
                             <p>Offices in the US</p>
                         </div>
 
-                        <div className="numberContainer">
+                        <div className={styles.numberContainer}>
                                 <h1>3</h1>
                             </div>
                         
                     </div>
 
-                    <div className="thirdTextAndNumberContainer">
+                    <div className={styles.thirdTextAndNumberContainer}>
 
-                        <div className="textContainer">
+                        <div className={styles.textContainer}>
                                 <p>Transaction Analyzed</p>
                             </div>
-                            <div className="numberAndIconContainer">
-                                <div className="numberContainer">
+                            <div className={styles.numberAndIconContainer}>
+                                <div className={styles.numberContainer}>
                                     <h1>10M</h1>
                                 </div>
-                                <div className="iconContainer">
+                                <div className={styles.iconContainer}>
                                 <IoAdd />
 
                                 </div>
