@@ -1,8 +1,16 @@
 .contentContainer{
-    width: fit-content;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    row-gap: 2rem;
+    padding-left: 4rem;
+    /* background-color: aqua; */
 
+}
+
+.headingContainer{
+    width: 50%;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
 }

@@ -1,7 +1,26 @@
 .heroContainers{
-    width: fit-content;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: var(--all-background-color);
+    
+}
+
+.firstFooterContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: var(--all-background-color);
+    /* align-items: center; */
+}
+
+.titleContainer{
+    width: fit-content;
+    height: auto;
+    color: var(--blue-normal-secondary-color);
 }

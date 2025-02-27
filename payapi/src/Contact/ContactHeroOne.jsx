@@ -1,8 +1,9 @@
 import { useState } from "react"
 import styles from "./contactheroone.module.css"
+import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io"; 
 
  const ContantHeroOne = () => {
-    
+
     const [nameValue, setNameValue] = useState("")
     const [nameError, setNameError] = useState(false); // Track if error name exists
 
@@ -17,6 +18,13 @@ import styles from "./contactheroone.module.css"
 
     const [messageValue, setMessageValue] = useState ("")
     const [messageError, setMessageError] = useState(false); // Track if error Message exists
+
+    const [isChecked, setIsChecked] = useState(false); // Track checkbox state
+
+    const toggleCheckbox = () => {
+        setIsChecked((prev) => !prev); // Toggle state
+    };
+
 
     const manageName = (e) => {
         const inputNameValue = e.target.value;
@@ -134,86 +142,92 @@ import styles from "./contactheroone.module.css"
 
     return(
         <div className={styles.allContentContainer}>
-            <form onSubmit={formSubmitter}>
+            <form onSubmit={formSubmitter} className={styles.formContainer}>
 
-            <div className={styles.allInputField}>    
-               <div className={styles.nameContainer}>
-                    <input
-                        type="text"
-                        placeholder="Name"
-                        value={nameValue}
-                        name="name"
-                        onChange={manageName}
-                        className={`${styles.inputField} ${nameError ? styles.error : ""}`} // Add error class if needed
-                    />
-                    {nameError && <p className={styles.errorMessage}>This field can't be empty</p>}
-                </div>
-
-                <div className={styles.emailContainer}>
-                    <input type="email"
-                    placeholder="Email Address"
-                    value= {emailValue}
-                    name="email"
-                    onChange={manageEmail}
-                    className={`${styles.inputField} ${emailError ? styles.error : ""}`}
-                    />
-                    {emailError && <p className={styles.errorMessage}>{emailError}</p>}
-                </div>
-
-
-                <div className={styles.companyNameContainer}>
+                <div className={styles.allInputField}>    
+                    <div className={styles.nameContainer}>
                         <input
-                         type="text"
-                         placeholder="Company Name"
-                         name="CompanyName"
-                         value={companyNameValue}
-                         onChange={manageCompanyName}
-                         className={`${styles.inputField} ${companyNameError ? styles.error : ""}`}
+                            type="text"
+                            placeholder="Name"
+                            value={nameValue}
+                            name="name"
+                            onChange={manageName}
+                            className={`${styles.inputField} ${nameError ? styles.error : ""}`} // Add error class if needed
                         />
-                       {companyNameError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
+                        {nameError && <p className={styles.errorMessage}>This field can't be empty</p>}
+                    </div>
 
-                </div>
+                    <div className={styles.emailContainer}>
+                        <input type="email"
+                        placeholder="Email Address"
+                        value= {emailValue}
+                        name="email"
+                        onChange={manageEmail}
+                        className={`${styles.inputField} ${emailError ? styles.error : ""}`}
+                        />
+                        {emailError && <p className={styles.errorMessage}>{emailError}</p>}
+                    </div>
 
-                <div className={styles.titleContainer}>
-                    <input 
-                    type="text"
-                    placeholder="Title"
-                    name="title"
-                    value = {titleValue}
-                    onChange={manageTitleValue}
-                    className={`${styles.inputField} ${titleError ? "error" : ""}`}
-                    />
-                    {titleError && <p className={styles.errorMessage}>This  Title Field cannot be empty</p>}
-                </div>
 
-                <div className={styles.messageContainer}>
-                    <input 
-                    type="text"
-                    placeholder="Message"
-                    name="message"
-                    value = {messageValue}
-                    onChange={manageMessageValue}
-                    className={`${styles.MessageInputField} ${messageError ? "error" : ""}`}
-                    />
-                    {titleError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
-                </div>
-            </div>
-
-                 <div className={styles.checkAndTextContainer}>
-
-                    <div className={styles.checkContainer}>
+                    <div className={styles.companyNameContainer}>
+                            <input
+                            type="text"
+                            placeholder="Company Name"
+                            name="CompanyName"
+                            value={companyNameValue}
+                            onChange={manageCompanyName}
+                            className={`${styles.inputField} ${companyNameError ? styles.error : ""}`}
+                            />
+                        {companyNameError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
 
                     </div>
+
+                    <div className={styles.titleContainer}>
+                        <input 
+                        type="text"
+                        placeholder="Title"
+                        name="title"
+                        value = {titleValue}
+                        onChange={manageTitleValue}
+                        className={`${styles.inputField} ${titleError ? "error" : ""}`}
+                        />
+                        {titleError && <p className={styles.errorMessage}>This  Title Field cannot be empty</p>}
+                    </div>
+
+                    <div className={styles.messageContainer}>
+                        <input 
+                        type="text"
+                        placeholder="Message"
+                        name="message"
+                        value = {messageValue}
+                        onChange={manageMessageValue}
+                        className={`${styles.MessageInputField} ${messageError ? "error" : ""}`}
+                        />
+                        {titleError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
+                    </div>
+                </div>
+
+                <div className={styles.checkAndTextContainer}>
+
+                <div className={styles.checkContainer} onClick={toggleCheckbox} >
+
+                        {isChecked ? (
+                            <IoMdCheckbox className={styles.iconContainer} /> // Checked icon
+                        ) : (
+                            <IoMdSquareOutline className={styles.UncheckedIconContainer} /> // Unchecked icon
+                        )}
+                    </div>
+
                     <div className={styles.textContainer}>
                         <p>Stay up-to-date with company announcements and updates to our API</p>
 
                     </div>
 
-                 </div>
+                </div>
                   
-                  <div className={styles.buttonContainer}>
-                    <button type="submit" className={styles.button}>Submit</button>
-                  </div>
+                <div className={styles.buttonContainer}>
+                  <button type="submit" className={styles.button}>Submit</button>
+                </div>
 
             </form>
 
