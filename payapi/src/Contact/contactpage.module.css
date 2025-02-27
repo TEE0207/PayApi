@@ -1,0 +1,7 @@
+.heroContainers{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--all-background-color);
+}

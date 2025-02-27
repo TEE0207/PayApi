@@ -2,6 +2,7 @@ import { useState } from "react"
 import styles from "./contactheroone.module.css"
 
  const ContantHeroOne = () => {
+    
     const [nameValue, setNameValue] = useState("")
     const [nameError, setNameError] = useState(false); // Track if error name exists
 
@@ -12,7 +13,10 @@ import styles from "./contactheroone.module.css"
     const [companyNameError, setCompanyNameError] = useState(false); // Track if error CompanyName exists
 
     const [titleValue, setTitleValue] = useState ("")
-    const [titleError, setTitleError] = useState(false); // Track if error CompanyName exists
+    const [titleError, setTitleError] = useState(false); // Track if error Title exists
+
+    const [messageValue, setMessageValue] = useState ("")
+    const [messageError, setMessageError] = useState(false); // Track if error Message exists
 
     const manageName = (e) => {
         const inputNameValue = e.target.value;
@@ -65,6 +69,18 @@ import styles from "./contactheroone.module.css"
         }
     }
 
+
+    const manageMessageValue = (e) => {
+        const inputMessageValue = e.target.value
+        setMessageValue(inputMessageValue)
+
+        if (inputMessageValue.trim().length === 0) {
+            setMessageError(true);
+        } else {
+            setMessageError(false);
+        }
+    }
+
     const formSubmitter = (e) => {
         e.preventDefault()
 
@@ -91,8 +107,13 @@ import styles from "./contactheroone.module.css"
             setTitleError(true);
             isValid = false;
         }
+
+        if (messageValue.trim() === "") {
+            setTitleError(true);
+            isValid = false;
+        }
         if (isValid) {
-            console.log("Form submitted:", { nameValue, emailValue, companyNameValue, titleValue });
+            console.log("Form submitted:", { nameValue, emailValue, companyNameValue, titleValue, messageValue});
         }
 
          // Reset form values after successful submission
@@ -100,6 +121,7 @@ import styles from "./contactheroone.module.css"
          setEmailValue("");
          setCompanyNameValue("");
          setTitleValue("");
+         setMessageValue("")
 
 
          // ✅ Clear all error states
@@ -107,78 +129,89 @@ import styles from "./contactheroone.module.css"
         setEmailError(false);
         setCompanyNameError(false);
         setTitleError(false);
+        setMessageError(false)
     }
 
     return(
-        <div>
+        <div className={styles.allContentContainer}>
             <form onSubmit={formSubmitter}>
 
-               <div className="nameContainer">
+            <div className={styles.allInputField}>    
+               <div className={styles.nameContainer}>
                     <input
                         type="text"
                         placeholder="Name"
                         value={nameValue}
                         name="name"
                         onChange={manageName}
-                        className={`inputField ${nameError ? "error" : ""}`} // Add error class if needed
+                        className={`${styles.inputField} ${nameError ? styles.error : ""}`} // Add error class if needed
                     />
-                    {nameError && <p className="errorMessage">This field can't be empty</p>}
+                    {nameError && <p className={styles.errorMessage}>This field can't be empty</p>}
                 </div>
 
-                <div className="emailContainer">
+                <div className={styles.emailContainer}>
                     <input type="email"
                     placeholder="Email Address"
                     value= {emailValue}
                     name="email"
                     onChange={manageEmail}
-                    className={`inputField ${emailError ? "error" : ""}`}
+                    className={`${styles.inputField} ${emailError ? styles.error : ""}`}
                     />
-                    {emailError && <p className="errorMessage">{emailError}</p>}
+                    {emailError && <p className={styles.errorMessage}>{emailError}</p>}
                 </div>
 
 
-                <div className="companyNameContainer">
+                <div className={styles.companyNameContainer}>
                         <input
                          type="text"
                          placeholder="Company Name"
                          name="CompanyName"
                          value={companyNameValue}
                          onChange={manageCompanyName}
-                         className={`inputField ${companyNameError ? "error" : ""}`}
+                         className={`${styles.inputField} ${companyNameError ? styles.error : ""}`}
                         />
-                       {companyNameError && <p className="errorMessage">This Field cannot be empty</p>}
+                       {companyNameError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
 
                 </div>
 
-                <div className="titleContainer">
+                <div className={styles.titleContainer}>
                     <input 
                     type="text"
                     placeholder="Title"
-                    name="Title"
+                    name="title"
                     value = {titleValue}
                     onChange={manageTitleValue}
-                    className={`inputField ${titleError ? "error" : ""}`}
+                    className={`${styles.inputField} ${titleError ? "error" : ""}`}
                     />
-                    {titleError && <p className="errorMessage">This  Title Field cannot be empty</p>}
+                    {titleError && <p className={styles.errorMessage}>This  Title Field cannot be empty</p>}
                 </div>
 
-                <div className="textAreaContainer">
-                    <textarea name="essay" placeholder="Message"></textarea>
+                <div className={styles.messageContainer}>
+                    <input 
+                    type="text"
+                    placeholder="Message"
+                    name="message"
+                    value = {messageValue}
+                    onChange={manageMessageValue}
+                    className={`${styles.MessageInputField} ${messageError ? "error" : ""}`}
+                    />
+                    {titleError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
                 </div>
+            </div>
 
-                 <div className="checkAndTextContainer">
+                 <div className={styles.checkAndTextContainer}>
 
-                    <div className="checkContainer">
+                    <div className={styles.checkContainer}>
 
                     </div>
-                    <div className="textContainer">
+                    <div className={styles.textContainer}>
                         <p>Stay up-to-date with company announcements and updates to our API</p>
 
                     </div>
 
                  </div>
                   
-                  <div className="buttonContainer">
+                  <div className={styles.buttonContainer}>
                     <button type="submit" className={styles.button}>Submit</button>
                   </div>
 

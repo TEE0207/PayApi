@@ -1,0 +1,8 @@
+.contentContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}

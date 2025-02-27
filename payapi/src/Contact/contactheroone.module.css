@@ -1,0 +1,102 @@
+.allContentContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    background-color: blue;
+}
+
+.nameContainer{
+    width: 65%;
+    height: auto;
+}
+
+.emailContainer{
+    width: 65%;
+    height: auto;
+}
+
+.titleContainer{
+    width: 65%;
+    height: auto;
+}
+
+.companyNameContainer{
+    width: 65%;
+    height: auto;
+}
+
+.messageContainer{
+    width: 65%;
+    height: auto;
+}
+
+.allInputField{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+.inputField{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--blue-normal-secondary-color);
+    padding-bottom:1rem ;
+    outline: none;
+    background-color: var(--all-background-color);
+}
+.inputField::placeholder {
+    color: var(--blue-normal-secondary-color);
+    font-size: 0.7rem;
+}
+
+.messageInputField::placeholder {
+    color: var(--blue-normal-secondary-color);
+    font-size: 0.7rem;
+
+}
+
+
+.MessageInputField{
+    border: none;
+    border-bottom: 1px solid var(--blue-normal-secondary-color);
+    padding-bottom:3rem ;
+    outline: none;
+    width: 100%;
+    background-color: var(--all-background-color);
+}
+
+
+.inputField.error {
+    border-color: red;
+}
+
+.inputField.error::placeholder {
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    font-size: 0.55rem;
+}
+
+.textContainer{
+    width: 63%;
+    color: var(--blue-normal-secondary-color);
+}
+
+.buttonContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.button{
+    padding: .5rem 2rem;
+    color: var(--blue-normal-secondary-color);
+    border-radius: 3rem;
+    border: 1px solid var(--blue-normal-secondary-color);
+}
