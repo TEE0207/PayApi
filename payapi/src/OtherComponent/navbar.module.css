@@ -65,3 +65,46 @@
     outline: none;
     color: var(--white-primary-color);
 }
+
+.barMenu{
+  display: none;
+}
+
+.closeBar{
+    cursor: pointer;
+}
+
+.moblieMenuContainer{
+    width: 30%;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 100;
+    padding: 0rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moblieListContainer{
+    list-style: none;
+}
+
+@media screen and (max-width : 480px) {
+    .barMenu{
+        display: flex;
+      }
+
+      .page{
+        display: none;
+      }
+
+      .button{
+        display: none;
+      }
+
+
+    
+}

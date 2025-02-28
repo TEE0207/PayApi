@@ -24,6 +24,7 @@
 .paragraphContainer{
     color: var(--blue-light-color);
     width: 68%;
+    height: 44px;
     line-height: 1.25rem;
 }
 
@@ -66,5 +67,11 @@
     padding: 0.65rem 1rem;
     border-radius: 1rem;
     color: var(--blue-normal-secondary-color);
+    transition: all 0.2s ease-in-out;
 
+}
+
+.button:hover{
+    background-color: var(--blue-normal-secondary-color);
+    color: white;
 }

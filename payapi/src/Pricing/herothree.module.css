@@ -67,4 +67,11 @@
     border-radius: 1rem;
     color: var(--blue-normal-secondary-color);
 
+    transition: all 0.2s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: var(--blue-normal-secondary-color);
+    color: white;
 }
