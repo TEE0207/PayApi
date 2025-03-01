@@ -28,7 +28,7 @@ export default function HeroOneComponent(){
 
     return(
 
-        <div>
+        <div className={styles.parentContainer}>
             <div className={styles.allContentContainer}>
 
                 <div className={styles.headingParagraphMoneyContainer}>
@@ -41,7 +41,7 @@ export default function HeroOneComponent(){
                     
 
                     <div className={styles.paragraphContainer}>
-                        { <p> Build and test using our core set of products with up to 100 API requests</p>}
+                        { showParagraph &&  <p> Build and test using our core set of products with up to 100 API requests</p>}
 
                     </div>
 

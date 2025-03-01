@@ -28,7 +28,7 @@ export default function HeroTwoComponent(){
 
     return(
 
-        <div>
+        <div className={styles.parentContainer}>
             <div className={styles.allContentContainer}>
 
                 <div className={styles.headingParagraphMoneyContainer}>

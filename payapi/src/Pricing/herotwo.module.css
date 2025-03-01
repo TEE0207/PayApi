@@ -1,3 +1,8 @@
+.parentContaner{
+    width: 30%;
+    height: auto;
+}
+
 .allContentContainer{
     width: 100%;
     height: auto;
@@ -24,8 +29,10 @@
 .paragraphContainer{
     color: var(--blue-light-color);
     width: 68%;
-    height: 44px;
+    min-height: 44px; /* Ensures height remains even if empty */
     line-height: 1.25rem;
+    display: flex; /* Helps maintain space */
+    align-items: center; /* Centers text if present */
 }
 
 .moneyContainer{
@@ -35,7 +42,7 @@
 }
 
 .allTextAndMarkIcon{
-    width: 70%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;

@@ -10,5 +10,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
+    padding-left: 5rem;
+    column-gap: 1rem;
 }
