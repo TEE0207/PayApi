@@ -41,7 +41,7 @@ export default function HeroTwoComponent(){
                     
 
                     <div className={styles.paragraphContainer}>
-                        {  <p> Launch your project with unlimited requests and no contractual minimums</p>}
+                        { showParagraph && <p> Launch your project with unlimited requests and no contractual minimums</p>}
 
                     </div>
 

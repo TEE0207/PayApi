@@ -2,11 +2,12 @@ import SecondHomeFooterComponent from "../Home/HomeFooters/SecondHomeFooterCompo
 import AboutHeader from "./AboutHeader";
 import FirstAboutHeroComponent from "./FirstAboutHeroComponent";
 import SecondAboutHeroComponent from "./SecondAboutHeroComponent";
+import styles from "./aboutpage.module.css"
 
 export default function AboutPage(){
 
     return(
-        <div style={{width : "100%"}}>
+        <div className={styles.parentContainer}>
             <AboutHeader />
             <FirstAboutHeroComponent />
             <SecondAboutHeroComponent />

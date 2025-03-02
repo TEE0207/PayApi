@@ -18,7 +18,7 @@ export default function NavBar(){
 
     return (
 
-        <div>
+        
 
 
             <div className={styles.logoNavScheduleContainer}>
@@ -65,7 +65,7 @@ export default function NavBar(){
 
 
 
-            </div>
-        </div>
+         </div>
+        
     )
 }

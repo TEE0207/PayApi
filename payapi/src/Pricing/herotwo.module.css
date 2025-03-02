@@ -1,4 +1,4 @@
-.parentContaner{
+.parentContainer{
     width: 30%;
     height: auto;
 }
@@ -29,10 +29,10 @@
 .paragraphContainer{
     color: var(--blue-light-color);
     width: 68%;
-    min-height: 44px; /* Ensures height remains even if empty */
+    min-height: 44px; 
     line-height: 1.25rem;
-    display: flex; /* Helps maintain space */
-    align-items: center; /* Centers text if present */
+    display: flex; 
+    align-items: center; 
 }
 
 .moneyContainer{

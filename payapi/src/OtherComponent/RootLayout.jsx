@@ -8,7 +8,7 @@ import styles from "./rootlayout.module.css"
 export default function RootLayout(){
 
     return(
-        <div>
+        <div className={styles.parentContainer}>
             <div className={styles.mainPageContainer}>
 
                 <div className={styles.navBarContainer}>

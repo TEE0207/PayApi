@@ -41,7 +41,7 @@ export default function HeroThreeComponent(){
                     
 
                     <div className={styles.paragraphContainer}>
-                        {<p>  Get tailored solutions, volume pricing, and dedicated support for your team</p>}
+                        { showParagraph && <p>  Get tailored solutions, volume pricing, and dedicated support for your team</p>}
 
                     </div>
 

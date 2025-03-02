@@ -1,3 +1,9 @@
+.parentContainer{
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+}
+
 .heroContainers{
     width: 100%;
     height: auto;

@@ -1,6 +1,8 @@
 import styles from "./firstabouthero.module.css"
 import picture from "../../src/assets/about/desktop/image-team-members.jpg"
 import { IoAdd } from "react-icons/io5";
+import CountUp from 'react-countup';
+
 
 export default function FirstAboutHeroComponent(){
 
@@ -41,7 +43,8 @@ export default function FirstAboutHeroComponent(){
                         <div className={styles.numberAndIconContainer}>
                             
                             <div className={styles.numberContainer}>
-                                <h1>300</h1>
+                            <h1> <CountUp end={300} duration={5}/></h1>
+
                             </div>
                             <div className={styles.iconContainer}>
                             <IoAdd />

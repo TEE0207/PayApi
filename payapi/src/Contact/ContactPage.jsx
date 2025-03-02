@@ -7,7 +7,8 @@ import styles from "./contactpage.module.css"
 const ContactPage = ()=>{
 
     return(
-        <div>
+        <div className={styles.parentContainer}>
+            
                 <ContactHeaderComponent />
 
 
