@@ -10,7 +10,7 @@ import styles from "./logo.module.css"
 export default function LogoComponent(){
 
     return(
-        <div>
+        
                 <div className={styles.allLogoContainer}>
              
                     <div className={styles.first2LogoContainer}>
@@ -54,6 +54,6 @@ export default function LogoComponent(){
 
                     </div>
               </div>
-        </div>
+        
     )
 }

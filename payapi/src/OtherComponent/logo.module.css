@@ -1,4 +1,5 @@
 .allLogoContainer{
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,20 +9,20 @@
 .first2LogoContainer{
     display: flex;
     flex-direction: column;
-    row-gap: 2.6rem;
+    row-gap: 2.8rem;
 }
 
 .second2LogoContainer{
     display: flex;
     flex-direction: column;
-    row-gap: 1.7rem;
+    row-gap: 1.9rem;
     align-items: center;
 }
 
 .last2LogoContainer{
     display: flex;
     flex-direction: column;
-    row-gap: 1.7rem;
+    row-gap: 1.9rem;
 }
 
 /* .teslaContainer{

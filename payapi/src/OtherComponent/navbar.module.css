@@ -1,11 +1,20 @@
 .logoNavScheduleContainer{
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0rem 4rem;
     /* background-color: red; */
+}
+
+.desktopLogoNavScheduleContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 4rem;
 }
 
 .logoNavContainer{
@@ -75,35 +84,188 @@
     cursor: pointer;
 }
 
-.moblieMenuContainer{
-    width: 30%;
-    background-color: blue;
+.mobileMenuContainer{
+    width: 80.5%;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     height: 100vh;
     z-index: 100;
     padding: 0rem;
-    display: none;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    transition: right 0.3s ease-in-out; /* Smooth animation */
+    padding: 0rem 1rem;
+    background-color: #1B262F;
+    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+    background-size: 190%;
+    background-position: 69% -145%;
+    background-repeat: no-repeat;
+
 }
 
-.moblieListContainer{
+.mSchduleContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2rem;
+    background-color:var(--primary-color) ;
+
+
+}
+
+.mButton{
+    width: 100%;
+    height: auto;
+    padding:0.85rem 0rem;
+    background-color:var(--primary-color) ;
+    border-radius: 2rem;
+    color: #FBFCFE;
+    border: none;
+    outline: none;
+}
+
+
+
+.mobileListContainer{
     list-style: none;
 }
 
+.showMenu {
+    right: 0; /* Slides menu into view */
+}
+
+@media screen and (max-width : 1120px) {
+
+    .logoNavScheduleContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0rem 0rem;
+        
+        /* background-color: blue; */
+    }
+
+    .desktopLogoNavScheduleContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0rem 5rem;
+    }
+
+    .logoNavContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+        column-gap: 6rem;
+        align-items: center;
+    }
+
+    .listContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        column-gap: 6rem;
+        
+    }
+
+    .page{
+        color: var(--blue-normal-secondary-color);
+        font-size: 1.2rem;
+    }
+    
+}
+
 @media screen and (max-width : 480px) {
+
+    .logoNavScheduleContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0rem 0rem 0rem 2rem;
+        /* background-color: red; */
+    }
+    
+    .desktopLogoNavScheduleContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0rem 0rem;
+    }
+
+    .barMenuContainer{
+
+        padding-top: 0.5rem;
+        padding-right: 2rem;
+    }
+
+    .closeBarContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #979797;
+    }
+
+    .closeBar{
+        font-size :2.5rem ;
+        color: #FBFCFE;
+
+    }
+
+    .mobileListContainer{
+     list-style: none;
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 2.5rem;
+     padding-top: 2.5rem;
+     padding-bottom: 2rem;
+
+    }
+
+   
     .barMenu{
         display: flex;
+        cursor: pointer;
+        font-size: 1.95rem;
+        
       }
 
-      .page{
+      .navContainer{
+        display: none;
+      }
+
+      .schduleContainer{
         display: none;
       }
 
       .button{
         display: none;
+      }
+
+      .mPage{
+        font-size: 1.5rem;
       }
 
 

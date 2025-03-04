@@ -36,3 +36,87 @@ input::placeholder{
      color: #FBFCFE;
 }
 
+@media screen and (max-width : 1120px) {
+    .inputAndSchduleContainer{
+        width: 58%;
+         height : auto;
+         display : flex;
+         flex-direction : row ;
+         justify-content : space-between;
+         background-color : white;
+         align-items: center;
+         border-radius : 5rem; 
+         column-gap: 2.7rem;  
+     }
+
+     .buttonS {
+        border : none ;
+        outline : none ;
+         padding : 1.2rem 2rem;
+         border-radius : 5rem;
+         background-color :#ba4270;
+         font-size: 1rem;
+         
+         color: #FBFCFE;
+    }
+
+    .input::placeholder{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #36536B;
+       }
+
+    .input {
+        border : none;
+        outline : none;
+        padding : 1.2rem 1.5rem;
+        border-radius : 5rem 0 0 5rem;
+        background-color : white;
+      
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .inputAndSchduleContainer{
+        width: 100%;
+         height : auto;
+         display : flex;
+         flex-direction : column;
+         
+         row-gap: 1.2rem;
+         background-color : var(--all-background-color);
+         align-items: none;
+         border-radius : 0rem; 
+         column-gap: 0rem;  
+         padding: 0rem 2rem;
+     }
+
+     .input {
+        width: 100%;
+        border : none;
+        outline : none;
+        padding : 1rem 1.5rem;
+        border-radius : 5rem ;
+        background-color : white;
+      
+    }
+
+    input::placeholder{
+        font-size: 1rem;
+        color: #36536B;
+       }
+
+    .buttonS {
+        width: 100%;
+        border : none ;
+        outline : none ;
+         padding : 1rem 1.5rem;
+         border-radius : 5rem;
+         background-color :#ba4270;
+         font-size: 1rem;
+         
+         
+         color: #FBFCFE;
+    }
+}
+

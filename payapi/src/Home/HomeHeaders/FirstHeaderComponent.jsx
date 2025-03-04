@@ -8,7 +8,7 @@ export default function FirstHeaderComponent (){
 
     
 
-        <div>
+        
 
             <div className={styles.allContentContainer}>
 
@@ -38,6 +38,6 @@ export default function FirstHeaderComponent (){
 
             </div>
         
-        </div>
+        
     )
 }
