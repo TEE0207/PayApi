@@ -3,7 +3,7 @@ import styles from "./secondhero.module.css"
 export default function SecondHeroComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
 
                 <div className={styles.pictureContainer}>
@@ -23,6 +23,6 @@ export default function SecondHeroComponent(){
                     </div>
                 </div>
             </div>
-        </div>
+        
     )
 }

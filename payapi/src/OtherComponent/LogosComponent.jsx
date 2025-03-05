@@ -28,13 +28,13 @@ export default function LogoComponent(){
              
                     <div className={styles.second2LogoContainer}>
 
-                        <div className="microsoftContainer">
-                                <img src={microsoft} alt="microsoftLogo" />
+                        <div className={styles.microsoftContainer}>
+                                <img src={microsoft} alt="microsoftLogo" className={styles.microsoftLogoImg} />
                                 
                         </div>
 
-                        <div className="GoogleContainer">
-                            <img src={google} alt="googleLogo" />
+                        <div className={styles.googleContainer}>
+                            <img src={google} alt="googleLogo" className={styles.googleLogoImg} />
                             
                         </div>
 
@@ -42,13 +42,13 @@ export default function LogoComponent(){
              
                     <div className={styles.last2LogoContainer}>
 
-                        <div className="hewlettContainer">
-                            <img src={hewlett} alt="hewlettLogo" />
+                        <div className={styles.hewlettContainer}>
+                            <img src={hewlett} alt="hewlettLogo" className={styles.hewlettLogoImg} />
                             
                         </div>
 
-                        <div className="nvidiaContainer">
-                            <img src={nvidia} alt="nvidiaLogo" />
+                        <div className={styles.nvidiaContainer}>
+                            <img src={nvidia} alt="nvidiaLogo" className={styles.nvidiaLogoImg}/>
                             
                         </div>
 

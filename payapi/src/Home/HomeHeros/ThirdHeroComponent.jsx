@@ -3,7 +3,7 @@ import phones from "../../assets/home/desktop/illustration-simple-ui.svg"
 export default function ThirdHeroComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
 
                 <div className={styles.headingAndParagraphContainer}>
@@ -24,6 +24,6 @@ export default function ThirdHeroComponent(){
                 </div>
 
             </div>
-        </div>
+        
     )
 }

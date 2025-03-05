@@ -7,7 +7,7 @@ import styles from "./firstfooter.module.css"
 export default function FirstFooterComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
 
                 <div className={styles.firstIconHeadingParagraphContainer}>
@@ -61,6 +61,6 @@ export default function FirstFooterComponent(){
 
                 </div>
             </div>
-        </div>
+        
     )
 }

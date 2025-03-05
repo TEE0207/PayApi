@@ -108,3 +108,66 @@
     color: #6C8294;
     font-size: 1rem;
 }
+
+
+@media screen and (max-width : 1120px){
+
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 4rem;
+        background-color: #f2f2f2;
+    }
+
+    .firstHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+    }
+    
+    .firstParagraphContainer{
+        width: 74%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.2rem;
+    
+    }
+
+    .secondHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+
+    }
+    
+    .secondParagraphContainer{
+        width: 74%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.2rem;
+
+    }
+
+    .thirdHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+
+    }
+    
+    .thirdParagraphContainer{
+    
+        width: 78%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.24rem;
+    }
+}

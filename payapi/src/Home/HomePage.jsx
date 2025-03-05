@@ -12,11 +12,11 @@ export default function HomePage(){
     return(
         <div className={styles.headings}>
            <FirstHeaderComponent />
-           {/* <FirstHeroComponent /> */}
-           {/* <SecondHeroComponent />
+           <FirstHeroComponent />
+           <SecondHeroComponent />
            <ThirdHeroComponent />
            <FirstFooterComponent />
-           <SecondHomeFooterComponent /> */}
+           {/* <SecondHomeFooterComponent /> */}
         </div>
     )
 }

@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     column-gap: 2rem;
+    
 }
 
 .first2LogoContainer{
@@ -28,11 +29,15 @@
 /* .teslaContainer{
     width: 100px;
     height: 30px;
+    fill: white;
+
+    
 }
 
 .teslaLogoImg{
     width: 100%;
     height: 100%;
+    fill: white;
 }
 
 .oracleContainer{
@@ -45,3 +50,84 @@
     height: 100%;
 
 } */
+
+@media screen and (max-width : 1120px) {
+    .allLogoContainer{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 4rem;
+        
+    }
+
+    .second2LogoContainer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        align-items: center;
+        
+    }
+
+    .teslaContainer , .oracleContainer , .googleContainer , .hewlettContainer {
+        width: 120px;
+        height: 30px;
+    }
+
+    .nvidiaContainer{
+        width: 140px;
+        height: 30px;
+        
+    }
+
+    .microsoftContainer {
+        width: 160px;
+        height: 30px;
+    }
+    
+    .teslaLogoImg, .oracleLogoImg , .microsoftLogoImg , .googleLogoImg , .hewlettLogoImg , .nvidiaLogoImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .oracleContainer{
+        width: 120px;
+        height: 20px;
+    }
+    
+    .oracleLogoImg{
+        width: 100%;
+        height: 100%;
+}
+
+}
+
+@media screen and (max-width : 480px){
+    .allLogoContainer{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4rem;
+        
+    }
+
+    .first2LogoContainer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.8rem;
+    }
+    
+    .second2LogoContainer{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 1.9rem;
+        align-items: center;
+    }
+    
+    .last2LogoContainer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.9rem;
+    }
+}

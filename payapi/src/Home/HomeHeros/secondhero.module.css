@@ -41,3 +41,112 @@
     height: auto;
     line-height: 1.4rem;
 }
+
+@media screen and (max-width : 1120px) {
+    .allContentContainer{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 0rem;
+        background-color: #f2f2f2;
+        margin-top: 2rem;
+    }
+
+    .pictureContainer{
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin-left: 4rem;
+    }
+    
+    .picImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .headingAndParagraphContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        padding-bottom: 3rem;
+        /* background-color: aqua; */
+    }
+    
+    .headingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 2rem;
+    }
+    
+    .paragraphContainer{
+        width: 60%;
+        height: auto;
+        font-size: 1.05rem;
+        line-height: 2rem;
+        color: #6C8294;
+    }
+    
+    
+}
+
+@media screen and (max-width : 480px) {
+    .allContentContainer{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 0rem;
+        background-color: #f2f2f2;
+    }
+
+    .pictureContainer{
+        width: 110%;
+        /* background-color: aqua; */
+        margin-left: 0rem;
+
+    }
+    
+    .picImage{
+        width: 110%;
+        
+    }
+
+    .headingAndParagraphContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        padding-bottom: 3rem;
+        /* background-color: aqua; */
+    }
+    
+    .headingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.3rem;
+    }
+    
+    .paragraphContainer{
+        width: 77%;
+        height: auto;
+        font-size: 1.05rem;
+        line-height: 1.8rem;
+        text-align: center;
+    }
+    
+    
+}
