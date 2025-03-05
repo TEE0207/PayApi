@@ -5,18 +5,18 @@ import styles from "./secondfooter.module.css"
 export default function SecondHomeFooterComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
-                
+
                 <div className={styles.theHeadingText}>
                     <h1>Ready To Start?</h1>
                 </div>
 
-                <div className="buttonContainer">
+                <div className={styles.buttonContainer}>
                     <InputNschduleComponent />
                 </div>
 
             </div>
-        </div>
+        
     )
 }

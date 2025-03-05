@@ -14,3 +14,16 @@
     padding-left: 5rem;
     column-gap: 1rem;
 }
+
+@media screen and (max-width : 480px) {
+    .herosContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        padding-left: 0rem;
+        row-gap: 3.5rem;
+    }
+}

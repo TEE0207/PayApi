@@ -10,7 +10,7 @@ import logo from "../assets/shared/desktop/logo.svg"
 export default function FooterComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
                 <div className={styles.logoAndTheThreeTextContainer}>
                     <div className={styles.logoContainer}>
@@ -48,6 +48,6 @@ export default function FooterComponent(){
 
                 </div>
             </div>
-        </div>
+        
     )
 }

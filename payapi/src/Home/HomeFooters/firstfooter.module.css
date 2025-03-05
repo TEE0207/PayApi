@@ -171,3 +171,94 @@
         font-size: 1.24rem;
     }
 }
+
+@media screen and (max-width : 480px){
+
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        background-color: #f2f2f2;
+        row-gap: 3rem;
+    }
+
+    .firstIconHeadingParagraphContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .firstHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+    }
+    
+    .firstParagraphContainer{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.2rem;
+    
+    }
+
+    .secondIconHeadingParagraphContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .secondHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+
+    }
+    
+    .secondParagraphContainer{
+        width: 85%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.2rem;
+
+    }
+
+    .thirdIconHeadingParagraphContainer{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .thirdHeadingContainer{
+        width: fit-content;
+        height: auto;
+        color: #36536B;
+        font-size: 1.5rem;
+
+    }
+    
+    .thirdParagraphContainer{
+    
+        width: 90%;
+        height: auto;
+        text-align: center;
+        color: #6C8294;
+        font-size: 1.24rem;
+    }
+}

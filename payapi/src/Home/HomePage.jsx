@@ -16,7 +16,7 @@ export default function HomePage(){
            <SecondHeroComponent />
            <ThirdHeroComponent />
            <FirstFooterComponent />
-           {/* <SecondHomeFooterComponent /> */}
+           <SecondHomeFooterComponent />
         </div>
     )
 }

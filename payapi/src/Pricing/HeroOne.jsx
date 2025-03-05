@@ -41,7 +41,7 @@ export default function HeroOneComponent(){
                     
 
                     <div className={styles.paragraphContainer}>
-                        { showParagraph &&  <p> Build and test using our core set of products with up to 100 API requests</p>}
+                        {   <p> Build and test using our core set of products with up to 100 API requests</p>}
 
                     </div>
 
@@ -57,7 +57,7 @@ export default function HeroOneComponent(){
 
                     <div className={styles.markAndTextContainer}>
                         <FaCheck style={{color : "#BA4270"}}  />
-                        <p style={{color : "#36536B"}}>Transaction</p>
+                        <p style={{color : "#36536B"}}>Transactions</p>
                         
                     </div>
 

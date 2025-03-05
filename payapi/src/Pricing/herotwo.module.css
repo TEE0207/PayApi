@@ -82,3 +82,122 @@
     background-color: var(--blue-normal-secondary-color);
     color: white;
 }
+
+@media screen and (max-width : 1120px) {
+
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .headingParagraphMoneyContainer{
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        row-gap: 1rem;
+        
+    }
+    .headingContainer{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        font-size: 1.5rem;
+        color: var(--primary-color);
+    }
+    
+    .paragraphContainer{
+        color: var(--blue-light-color);
+        width: 73%;
+        font-size: 1.2rem;
+        text-align: center;
+        min-height: 86px; /* Ensures height remains even if empty */
+        line-height: 1.8rem;
+        display: flex; /* Helps maintain space */
+        flex-direction: row;
+        align-items: center; /* Centers text if present */
+    }
+    
+    .moneyContainer{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 1.5rem;
+        color: var(--blue-normal-secondary-color);
+    }
+    
+    .allTextAndMarkIcon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 4rem;
+        row-gap: 1rem;
+        border-bottom: 1px solid var(--blue-normal-secondary-color);
+        border-top: 1px solid var(--blue-normal-secondary-color);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .markAndTextContainer{
+        height: auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.7rem;
+        font-size: 1.3rem;
+    
+    }
+    
+    .buttonContainer{
+        width: fit-content;
+        margin-top: 1rem;
+        height: auto;
+    }
+    
+    .button{
+        border : 1px solid var(--blue-normal-secondary-color);
+        outline: none;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        color: var(--blue-normal-secondary-color);
+        transition: all 0.2s ease-in-out;
+        font-size: 1.2rem;
+    
+    }
+    
+    .button:hover{
+        background-color: var(--blue-normal-secondary-color);
+        color: white;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .parentContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .allTextAndMarkIcon{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        padding-left: 7.5rem;
+        row-gap: 1rem;
+        border-bottom: 1px solid #979797;
+        border-top: 1px solid #979797;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+}
