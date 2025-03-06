@@ -9,8 +9,8 @@ export default function AboutPage(){
     return(
         <div className={styles.parentContainer}>
             <AboutHeader />
-            {/* <FirstAboutHeroComponent />
-            <SecondAboutHeroComponent />
+            <FirstAboutHeroComponent />
+            {/* <SecondAboutHeroComponent />
             <SecondHomeFooterComponent /> */}
         </div>
     )
