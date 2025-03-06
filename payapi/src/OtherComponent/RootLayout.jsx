@@ -21,10 +21,10 @@ export default function RootLayout(){
 
                 </div>
 
-                <div className={styles.footerContainer}>
+                {/* <div className={styles.footerContainer}>
                     <FooterComponent />
 
-                </div>
+                </div> */}
             </div>
 
         </div>
