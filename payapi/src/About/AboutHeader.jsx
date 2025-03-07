@@ -2,7 +2,7 @@ import styles from "./aboutheader.module.css"
 export default function AboutHeader(){
 
     return(
-        <div>
+        
             <div className={styles.contentContainer}>
                 <div className={styles.headingOneContainer}>
                   <h1> We empower innovators by delivering access to the financial system</h1>
@@ -22,6 +22,6 @@ export default function AboutHeader(){
                 
                  </div>
             </div>
-        </div>
+        
     )
 }

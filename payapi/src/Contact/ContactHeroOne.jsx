@@ -209,7 +209,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
 
                 <div className={styles.checkAndTextContainer}>
 
-                <div className={styles.checkContainer} onClick={toggleCheckbox} >
+                    <div className={styles.checkContainer} onClick={toggleCheckbox} >
 
                         {isChecked ? (
                             <IoMdCheckbox className={styles.iconContainer} /> // Checked icon

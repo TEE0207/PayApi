@@ -57,7 +57,7 @@
         /* background-color: aquamarine; */
         justify-content: none;
         align-items: center;
-        row-gap:2.6rem ;
+        row-gap:3.8rem ;
         position: relative;
         width: 100%;
         height: auto;
@@ -65,7 +65,7 @@
         background-color: #f2f2f2;
         background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
         background-size: 50%;
-        background-position: 147% -300%;
+        background-position: 147% -200%;
         background-repeat: no-repeat;
     
     }

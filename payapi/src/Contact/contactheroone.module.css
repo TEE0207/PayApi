@@ -145,3 +145,281 @@
     color: #FBFCFE;
 
 }
+
+@media screen and (max-width : 1120px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+    }
+    .formContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+        row-gap: 1rem;
+    }
+
+    .allInputField{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    
+    .nameContainer{
+        width: 58%;
+        height: auto;
+    }
+    
+    .emailContainer{
+        width: 58%;
+        height: auto;
+    }
+    
+    .titleContainer{
+        width: 58%;
+        height: auto;
+    }
+    
+    .companyNameContainer{
+        width: 58%;
+        height: auto;
+    }
+    
+    .messageContainer{
+        width: 58%;
+        height: auto;
+    }
+    
+    
+    .inputField{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid var(--blue-normal-secondary-color);
+        padding-bottom:1rem ;
+        outline: none;
+        background-color: var(--all-background-color);
+    }
+    .inputField::placeholder {
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    }
+    
+    .messageInputField::placeholder {
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    
+    }
+    
+    
+    .MessageInputField{
+        border: none;
+        border-bottom: 1px solid var(--blue-normal-secondary-color);
+        padding-bottom:3rem ;
+        outline: none;
+        width: 100%;
+        background-color: var(--all-background-color);
+    }
+
+    .checkAndTextContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-left:13rem ;
+        column-gap: 2rem;
+    
+    }
+
+    .buttonContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding-left: 13rem;
+    }
+    
+    .button{
+        padding: 1rem 4rem;
+        color: var(--blue-normal-secondary-color);
+        border-radius: 3rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        border: 1px solid var(--blue-normal-secondary-color);
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;/* Smooth transition */
+    }
+
+    .textContainer{
+        width: 43%;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        line-height: 2rem;
+    }
+    .checkContainer{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        /* background-color: var(--blue-normal-secondary-color); */
+    }
+
+    .iconContainer{
+        width: 100%;
+        height: 100%;
+        color: var(--primary-color);
+    }
+    
+    .UncheckedIconContainer{
+        width: 100%;
+        height: 100%;
+        color: rgba(54, 83, 107, 0);
+        background-color: rgba(54, 83, 107, 0.5)
+    }
+    
+}
+
+@media screen and (max-width : 480px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+    }
+    .formContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+        row-gap: 1rem;
+    }
+
+    .allInputField{
+        height: auto;
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2.5rem;
+    }
+
+    
+    .nameContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .emailContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .titleContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .companyNameContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .messageContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .inputField{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid var(--blue-normal-secondary-color);
+        padding-bottom:1rem ;
+        outline: none;
+
+        background-color: var(--all-background-color);
+    }
+    .inputField::placeholder {
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    }
+    
+    .messageInputField::placeholder {
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    
+    }
+    
+    
+    .MessageInputField{
+        border: none;
+        border-bottom: 1px solid var(--blue-normal-secondary-color);
+        padding-bottom:3.5rem ;
+        outline: none;
+        width: 100%;
+        background-color: var(--all-background-color);
+    }
+
+    .checkAndTextContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding-left:2rem ;
+        column-gap: 1.5rem;
+    
+    }
+
+    .buttonContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding-left: 2rem;
+    }
+    
+    .button{
+        padding: 1rem 4rem;
+        color: var(--blue-normal-secondary-color);
+        border-radius: 3rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        border: 1px solid var(--blue-normal-secondary-color);
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;/* Smooth transition */
+    }
+
+    .textContainer{
+        width: 83%;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        line-height: 2rem;
+    }
+    .checkContainer{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        /* background-color: var(--blue-normal-secondary-color); */
+    }
+
+    .iconContainer{
+        width: 100%;
+        height: 100%;
+        color: var(--primary-color);
+    }
+    
+    .UncheckedIconContainer{
+        width: 100%;
+        height: 100%;
+        color: rgba(54, 83, 107, 0);
+        background-color: rgba(54, 83, 107, 0.5)
+    }
+    
+}

@@ -12,6 +12,11 @@
     background-repeat: no-repeat;
 }
 
+.headingParagraghImageContainer{
+    width: 100%;
+    height: auto;
+}
+
 
 .headingAndParagraphContainer{
     width: fit-content;
@@ -40,6 +45,11 @@
 }
 
 .imageContainer{
+    width: 100%;
+    height: auto;
+}
+
+.pictureContainer{
     width: 100%;
     height: auto;
 }
@@ -119,4 +129,301 @@
     border-bottom: 2px solid #979797;
     border-top: 2px solid #979797;
     padding: 0.7rem 0rem;
+}
+
+@media screen and (max-width : 1120px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+        background-color: #f2f2f2;
+        background-image: none;
+        background-size: none;
+        background-position: none;
+        background-repeat: none;
+    }
+
+    .headingParagraghImageContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .headingAndParagraphContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 5rem;
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+        
+    }
+    
+    .headingContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1.1rem;
+    
+    }
+    
+    .paragraphContainer{
+        width: 50%;
+        height: auto;
+        color: var(--blue-light-color);
+        line-height: 1.7rem;
+        font-size: 1.2rem;
+    }
+
+    .imageContainer{
+        width: 100%;
+        height: auto;
+        margin-right: -10rem;
+
+        
+    }
+
+    .pictureContainer{
+        width: 100%;
+
+        height: auto;
+        margin-right: -10rem;
+
+        
+    }
+
+    .picImage{
+        width: 1024px;
+
+        height: auto;
+
+    }.theThreeContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+        margin-top: 2.8rem;
+    }
+    
+    .firstTextAndNumberContainer{
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #979797;
+        border-top: 1px solid #979797;
+        padding: 0.7rem 0rem;
+    }
+    
+    .textContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    }
+    
+    .numberAndIconContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .numberContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+    
+    .iconContainer{
+        height: auto;
+        width: fit-content;
+        color: var(--primary-color);
+        font-size: 3rem;
+    }
+    
+    
+    .secondTextAndNumberContainer{
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #979797;
+        border-top: 1px solid #979797;
+        padding: 0.7rem 0rem;
+    }
+    
+    .thirdTextAndNumberContainer{
+        width: 30%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #979797;
+        border-top: 1px solid #979797;
+        padding: 0.7rem 0rem;
+    }
+    
+    
+}
+
+@media screen and (max-width : 480px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+        background-color: #f2f2f2;
+        background-image: none;
+        background-size: none;
+        background-position: none;
+        background-repeat: none;
+    }
+
+    .headingParagraghImageContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .headingAndParagraphContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+        
+    }
+    
+    .headingContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1.1rem;
+    
+    }
+    
+    .paragraphContainer{
+        width: 85%;
+        text-align: center;
+        height: auto;
+        color: var(--blue-light-color);
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .imageContainer{
+        width: 100%;
+        height: auto;
+        margin-right: -10rem;
+
+        
+    }
+
+    .pictureContainer{
+        width: 100%;
+
+        height: auto;
+        margin-right: -10rem;
+
+        
+    }
+
+    .picImage{
+        width: 430px;
+
+        height: auto;
+
+    }.theThreeContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+        margin-top: 2.8rem;
+    }
+    
+    .firstTextAndNumberContainer{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.5rem;
+        border-top: 1px solid #979797;
+        border-bottom: none;
+        padding: 0.7rem 0rem;
+    }
+    
+    .textContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--blue-normal-secondary-color);
+        font-size: 1rem;
+    }
+    
+    .numberAndIconContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .numberContainer{
+        width: fit-content;
+        height: auto;
+        color: var(--primary-color);
+        font-size: 2rem;
+    }
+    
+    .iconContainer{
+        height: auto;
+        width: fit-content;
+        color: var(--primary-color);
+        font-size: 3rem;
+    }
+    
+    
+    .secondTextAndNumberContainer{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        row-gap: 0.5rem;
+        padding: 0.7rem 0rem;
+    }
+    
+    .thirdTextAndNumberContainer{
+        width: 90%;
+        height: auto;
+        row-gap: 0.5rem;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #979797;
+        border-top: none;
+        padding: 0.7rem 0rem;
+    }
+    
+    
 }

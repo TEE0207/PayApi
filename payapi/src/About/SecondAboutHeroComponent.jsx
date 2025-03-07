@@ -3,7 +3,7 @@ import styles from "./secondabouthero.module.css"
 export default function SecondAboutHeroComponent(){
 
     return(
-        <div>
+        
             <div className={styles.allContentContainer}>
 
                 <div className={styles.firstTitleAndTextContainer}>
@@ -30,6 +30,6 @@ export default function SecondAboutHeroComponent(){
                     </div>
                 </div>
             </div>
-        </div>
+        
     )
 }
