@@ -12,17 +12,17 @@ export default function HeroTwoComponent(){
 
         // If it's a mobile device (<480px), hide paragraph immediately
         if (screenWidth < 480) {
-            setShowParagraph(false);
-            return;
+            const timer = setTimeout(() => setShowParagraph(false), 7000);
+            return () => clearTimeout(timer); // Cleanup function
         }
 
         // If it's a desktop (>1120px), remove after 2 seconds
         if (screenWidth > 1120) {
-            const timer = setTimeout(() => setShowParagraph(false), 2000);
+            const timer = setTimeout(() => setShowParagraph(false), 7000);
             return () => clearTimeout(timer); // Cleanup function
         }
 
-        // If it's a tablet (780px - 1120px), do nothing (keep it visible)
+        // If it's a tablet (480px - 1120px), do nothing (keep it visible)
     }, []); // Runs only once when the component mounts
 
 

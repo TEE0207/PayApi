@@ -203,7 +203,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
                         onChange={manageMessageValue}
                         className={`${styles.MessageInputField} ${messageError ? "error" : ""}`}
                         />
-                        {titleError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
+                        {messageError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
                     </div>
                 </div>
 

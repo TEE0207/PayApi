@@ -12,17 +12,17 @@ export default function HeroOneComponent(){
 
         // If it's a mobile device (<480px), hide paragraph immediately
         if (screenWidth < 480) {
-            setShowParagraph(false);
-            return;
+            const timer = setTimeout(() => setShowParagraph(false), 5000);
+            return () => clearTimeout(timer); // Cleanup function
         }
 
         // If it's a desktop (>1120px), remove after 2 seconds
         if (screenWidth > 1120) {
-            const timer = setTimeout(() => setShowParagraph(false), 2000);
+            const timer = setTimeout(() => setShowParagraph(false), 5000);
             return () => clearTimeout(timer); // Cleanup function
         }
 
-        // If it's a tablet (780px - 1120px), do nothing (keep it visible)
+        // If it's a tablet (480px - 1120px), do nothing (keep it visible)
     }, []); // Runs only once when the component mounts
 
 
@@ -41,7 +41,7 @@ export default function HeroOneComponent(){
                     
 
                     <div className={styles.paragraphContainer}>
-                        {   <p> Build and test using our core set of products with up to 100 API requests</p>}
+                        { showParagraph &&  <p> Build and test using our core set of products with up to 100 API requests</p>}
 
                     </div>
 
