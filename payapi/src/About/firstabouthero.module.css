@@ -6,7 +6,7 @@
     position: relative;
     padding: 0rem 0rem 0rem 0rem;
     background-color: #f2f2f2;
-    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+    background-image: url("./public/bg-pattern-circle.svg");
     background-size: 50%;
     background-position: -73% 48%;
     background-repeat: no-repeat;

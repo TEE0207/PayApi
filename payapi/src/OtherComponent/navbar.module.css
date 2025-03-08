@@ -98,9 +98,9 @@
     transition: right 0.3s ease-in-out; /* Smooth animation */
     padding: 0rem 1rem;
     background-color: #1B262F;
-    background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
+        background-image: url("./bg-pattern-circle.svg");
     background-size: 190%;
-    background-position: 69% -145%;
+    background-position: 69% -455%;
     background-repeat: no-repeat;
 
 }
