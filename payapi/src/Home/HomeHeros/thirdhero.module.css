@@ -96,14 +96,14 @@
            width: fit-content;
            height: auto;
            color: #36536B;
-           font-size: 2rem;
+           font-size: 1.5rem;
        }
        
        .paragraphContainer{
-        width: 73%;
+        width: 81%;
         color: #6C8294;
         line-height: 1.9rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: center;
        }
     

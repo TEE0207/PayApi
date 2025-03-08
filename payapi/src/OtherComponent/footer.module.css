@@ -74,7 +74,7 @@ a:hover{
         justify-content: space-between;
         align-items: center;
         position: relative;
-        padding: 2.5rem 6rem 2.5rem 3rem;
+        padding: 2.5rem 4rem 2.5rem 3rem;
         background-color: #1B262F;
         background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
         background-size: 140%;
@@ -102,7 +102,7 @@ a:hover{
         display: flex;
         flex-direction: row;
         align-items: center;
-        column-gap: 2rem;
+        column-gap: 1.7rem;
     }
 
     .theThreeTextContainer{
@@ -110,7 +110,7 @@ a:hover{
         height: auto;
         display: flex;
         flex-direction: row;
-        column-gap: 4rem;
+        column-gap: 2rem;
     
     }
 

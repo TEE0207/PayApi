@@ -84,7 +84,7 @@
         background-color: #f2f2f2;
         background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
         background-size: 140%;
-        background-position: center 185%;
+        background-position: center 195%;
         background-repeat: no-repeat;
        
     
@@ -113,8 +113,8 @@
 
 
     .headingContainer{
-        width: 75%;
-        font-size: 2rem;
+        width: 65%;
+        font-size: 1.5rem;
         color: #36536B;
         text-align: center;
         /* background-color: antiquewhite; */

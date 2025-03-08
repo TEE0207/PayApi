@@ -82,13 +82,13 @@
         position: relative;
         width: 100%;
         height: auto;
-        padding: 5rem 10rem;
+        padding: 5rem 4rem;
         row-gap: 5rem;
         margin-top: 7rem;
         background-color: #1B262F;
         background-image: url("./src/assets/shared/desktop/bg-pattern-circle.svg");
         background-size: 130%;
-        background-position: center 175%;
+        background-position: center 205%;
         background-repeat: no-repeat;
         
     }
@@ -96,7 +96,7 @@
     
 
     .headingParagraphAboutContainer{
-        width: fit-content;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -106,10 +106,11 @@
     }
 
     .headingContainer{
-        width: fit-content;
+        width: 100%;
         height: auto;
         color: white;
-        font-size: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
     
     }
 
@@ -118,6 +119,7 @@
         width: 60%;
         font-size: 1rem;
         height: auto;
+        text-align: center;
         line-height: 1.85rem;
     }
 

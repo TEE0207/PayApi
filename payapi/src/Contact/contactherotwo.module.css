@@ -32,9 +32,9 @@
     }
     
     .headingContainer{
-        width: 60%;
+        width: 70%;
         height: auto;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         text-align: center;
         color: var(--blue-normal-secondary-color);
     }

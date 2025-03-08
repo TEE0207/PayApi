@@ -129,11 +129,11 @@
     }
     
     .firstParagraphContainer{
-        width: 74%;
+        width: 80%;
         height: auto;
         text-align: center;
         color: #6C8294;
-        font-size: 1.2rem;
+        font-size: 1rem;
     
     }
 
@@ -146,11 +146,11 @@
     }
     
     .secondParagraphContainer{
-        width: 74%;
+        width: 76%;
         height: auto;
         text-align: center;
         color: #6C8294;
-        font-size: 1.2rem;
+        font-size: 1rem;
 
     }
 
@@ -168,7 +168,7 @@
         height: auto;
         text-align: center;
         color: #6C8294;
-        font-size: 1.24rem;
+        font-size: 1rem;
     }
 }
 
