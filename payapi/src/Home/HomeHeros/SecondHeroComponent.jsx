@@ -1,4 +1,4 @@
-import picture from "../../assets/home/desktop/illustration-easy-to-implement.svg"
+// import picture from "../../assets/home/desktop/illustration-easy-to-implement.svg"
 import styles from "./secondhero.module.css"
 export default function SecondHeroComponent(){
 
@@ -7,7 +7,7 @@ export default function SecondHeroComponent(){
             <div className={styles.allContentContainer}>
 
                 <div className={styles.pictureContainer}>
-                    <img src={picture} alt="image" className={styles.picImage}/>
+                    <img src="/desktop/illustration-easy-to-implement.svg"alt="image" className={styles.picImage}/>
 
                 </div>
 

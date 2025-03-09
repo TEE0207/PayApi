@@ -1,10 +1,9 @@
 import styles from "./firstabouthero.module.css"
-import desktopPicture from "../../src/assets/about/desktop/image-team-members.jpg"
-import tabletPicture from "../../src/assets/about/tablet/image-team-members.jpg"
-import mobilePicture from "../../src/assets/about/mobile/image-team-members.jpg"
+// import desktopPicture from "../desktop/image-team-members.jpg"
+// import tabletPicture from "./tablet/image-team-members.jpg"
+// import mobilePicture from "./mobile/image-team-members.jpg"
 import { IoAdd } from "react-icons/io5";
 import CountUp from 'react-countup';
-import LazyLoad from 'react-lazy-load';
 
 
 
@@ -33,9 +32,9 @@ export default function FirstAboutHeroComponent(){
                     <div className={styles.imageContainer}>
                     
                     <picture className={styles.pictureContainer}>
-                            <source media="(max-width: 480px)" srcSet={mobilePicture} />
-                            <source media="(max-width: 1120px)" srcSet={tabletPicture} className={styles.picImage}/>
-                            <img loading="eager" src={desktopPicture}alt="members picture" className={styles.picImage}/>                        
+                            <source media="(max-width: 480px)" srcSet="/mobile/image-team-members.jpg" />
+                            <source media="(max-width: 1120px)" srcSet="/tablet/image-team-members.jpg"className={styles.picImage}/>
+                            <img src="/desktop/image-team-members.jpg" alt="members picture" className={styles.picImage}/>                        
                         </picture>
 
                 

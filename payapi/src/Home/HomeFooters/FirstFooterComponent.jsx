@@ -1,6 +1,6 @@
-import bank from "../../assets/home/desktop/icon-banking-and-coverage.svg"
-import finance from "../../assets/home/desktop/icon-personal-finances.svg"
-import payment from "../../assets/home/desktop/icon-banking-and-coverage.svg"
+// import bank from "./desktop/icon-banking-and-coverage.svg"
+// import finance from "../public/desktop/icon-personal-finances.svg"
+// import payment from "../public/desktop/icon-banking-and-coverage.svg"
 import styles from "./firstfooter.module.css"
 
 
@@ -12,7 +12,7 @@ export default function FirstFooterComponent(){
 
                 <div className={styles.firstIconHeadingParagraphContainer}>
                     <div className={styles.firstIconContainer}>
-                        <img src={finance} alt="Finance" className={styles.iconContainer}/>
+                        <img src="/desktop/icon-personal-finances.svg"alt="Finance" className={styles.iconContainer}/>
 
                     </div>
 
@@ -29,7 +29,7 @@ export default function FirstFooterComponent(){
 
                 <div className={styles.secondIconHeadingParagraphContainer}>
                     <div className={styles.secondIconContainer}>
-                        <img src={bank} alt="bank" className={styles.iconContainer} />
+                        <img src="/desktop/icon-banking-and-coverage.svg" alt="bank" className={styles.iconContainer} />
 
                     </div>
 
@@ -47,7 +47,7 @@ export default function FirstFooterComponent(){
 
                 <div className={styles.thirdIconHeadingParagraphContainer}>
                     <div className={styles.thirdIconContainer}>
-                        <img src={payment} alt="payment" className={styles.iconContainer} />
+                        <img src="/desktop/icon-banking-and-coverage.svg" alt="payment" className={styles.iconContainer} />
 
                     </div>
 

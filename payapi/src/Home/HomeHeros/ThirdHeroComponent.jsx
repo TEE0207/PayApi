@@ -1,5 +1,5 @@
 import styles from "./thirdhero.module.css"
-import phones from "../../assets/home/desktop/illustration-simple-ui.svg"
+// import phones from "../../assets/home/desktop/illustration-simple-ui.svg"
 export default function ThirdHeroComponent(){
 
     return(
@@ -20,7 +20,7 @@ export default function ThirdHeroComponent(){
 
                 <div className={styles.the2phonesContainer}>
 
-                    <img src={phones} alt="Phones" className={styles.phonesImage}/>
+                    <img src="/desktop/illustration-simple-ui.svg" alt="Phones" className={styles.phonesImage}/>
                 </div>
 
             </div>

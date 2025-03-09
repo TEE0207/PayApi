@@ -1,8 +1,8 @@
 import styles from "./footer.module.css"
-import facebook from "../assets/shared/desktop/facebook.svg"
-import twitter from "../assets/shared/desktop/twitter.svg"
-import linkedin from "../assets/shared/desktop/linkedin.svg"
-import logo from "../assets/shared/desktop/logo.svg"
+// import facebook from "../assets/shared/desktop/facebook.svg"
+// import twitter from "../assets/shared/desktop/twitter.svg"
+// import linkedin from "../assets/shared/desktop/linkedin.svg"
+// import logo from "../assets/shared/desktop/logo.svg"
 import { NavLink } from "react-router-dom"
 
 
@@ -16,7 +16,7 @@ export default function FooterComponent(){
             <div className={styles.allContentContainer}>
                 <div className={styles.logoAndTheThreeTextContainer}>
                     <div className={styles.logoContainer}>
-                      <NavLink to={"/"}><img src={logo} alt="logo" className={styles.logoImage} />
+                      <NavLink to={"/"}><img src="/desktopshared/logo.svg" alt="logo" className={styles.logoImage} />
                       </NavLink>
                     </div>
 
@@ -43,15 +43,15 @@ export default function FooterComponent(){
 
                 <div className={styles.theThreeSocialMediaContainer}>
                     <div className={styles.socialMediaContainer}>
-                        <img src={facebook} alt="logo" className={styles.socialImage}/>
+                        <img src="/desktopshared/facebook.svg" alt="logo" className={styles.socialImage}/>
                     </div>
 
                     <div className={styles.socialMediaContainer}>
-                        <img src={twitter} alt="logo" className={styles.socialImage} />
+                        <img src="/desktopshared/twitter.svg" alt="logo" className={styles.socialImage} />
                     </div>
 
                     <div className={styles.socialMediaContainer}>
-                        <img src={linkedin} alt="logo" className={styles.socialImage} />
+                        <img src="/desktopshared/linkedin.svg" alt="logo" className={styles.socialImage} />
                     </div>
 
                 </div>

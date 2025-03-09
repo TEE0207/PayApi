@@ -1,4 +1,4 @@
-import logo from "../assets/shared/desktop/logo.svg"
+// import logo from "../assets/shared/desktop/logo.svg"
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import {NavLink} from "react-router-dom"
@@ -35,7 +35,7 @@ export default function NavBar(){
 
                         <div className={styles.logoNavContainer}>
                             <div className={styles.logoContainer}>
-                            <NavLink to ={"/"}><img src={logo} alt="logo" className={styles.logoImage} /></NavLink>
+                            <NavLink to ={"/"}><img src="/desktopshared/logo.svg" alt="logo" className={styles.logoImage} /></NavLink>
 
                             </div>
 
