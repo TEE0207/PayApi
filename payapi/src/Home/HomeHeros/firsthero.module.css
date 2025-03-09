@@ -10,7 +10,7 @@
     height: auto;
     padding: 5.5rem 10rem;
     background-color: #1B262F;
-    background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+    background-image: url("./desktopshared/bg-pattern-circle.svg");
     background-size: 50%;
     background-position: -30% 115%;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@
         row-gap: 5rem;
         margin-top: 7rem;
         background-color: #1B262F;
-        background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+        background-image: url("./desktopshared/bg-pattern-circle.svg");
         background-size: 130%;
         background-position: center 205%;
         background-repeat: no-repeat;
@@ -154,7 +154,7 @@
         row-gap: 5rem;
         margin-top: 7rem;
         background-color: #1B262F;
-        background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+        background-image: url("./desktopshared/bg-pattern-circle.svg");
         background-size: 210%;
         background-position: center 560%;
         background-repeat: no-repeat;

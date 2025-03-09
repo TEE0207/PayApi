@@ -10,7 +10,7 @@
         height: auto;
         padding: 10rem 10rem 4rem 13rem;
         background-color: #f2f2f2;
-        background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+        background-image: url("./desktopshared/bg-pattern-circle.svg");
         background-size: 50%;
         background-position: 140% 190%;
         background-repeat: no-repeat;
@@ -63,7 +63,7 @@
         height: auto;
         padding: 10rem 0rem 4rem 0rem;
         background-color: #f2f2f2;
-        background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+        background-image: url("./desktopshared/bg-pattern-circle.svg");
         background-size: 50%;
         background-position: 142% -85%;
         background-repeat: no-repeat;
@@ -119,7 +119,7 @@
         height: auto;
         padding: 10rem 0rem 4rem 0rem;
         background-color: #f2f2f2;
-        background-image: url("./public/desktopshared/bg-pattern-circle.svg");
+        background-image: url("./desktopshared/bg-pattern-circle.svg");
         background-size: 80%;
         background-position: 270% -50%;
         background-repeat: no-repeat;
