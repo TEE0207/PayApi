@@ -64,8 +64,8 @@ input::placeholder{
     .input::placeholder{
         font-size: 1rem;
         font-weight: bold;
-        color: #36536B;
-       }
+        color: rgba(54, 83, 107, 0.5);
+    }
 
     .input {
         border : none;
@@ -104,8 +104,8 @@ input::placeholder{
 
     input::placeholder{
         font-size: 1rem;
-        color: #36536B;
-       }
+        color: rgba(54, 83, 107, 0.5);
+    }
 
     .buttonS {
         width: 100%;
