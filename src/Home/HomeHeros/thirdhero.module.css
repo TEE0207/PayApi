@@ -9,7 +9,7 @@
         height: auto;
         padding-top: 4rem;
         background-color: #f2f2f2;
-        background-image: url("./desktopshared/bg-pattern-circle.svg");
+        background-image: url("/desktopshared/bg-pattern-circle.svg");
         background-size: contain;
         background-position: 142% 0%;
         background-repeat: no-repeat;
