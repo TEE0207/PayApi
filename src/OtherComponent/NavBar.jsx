@@ -13,16 +13,13 @@ export default function NavBar(){
         setMenuOpen(!menuOpen);
       };
 
+      const closeMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
 
 
-    // const openMenu = (e)=>{
-    //     moblieMenuContainer.style.display = "flex"
-    // }
 
-    // const closeMenu = (e) => {
-    //     moblieMenuContainer.style.display = "none"
-
-    // }
+    
 
     return (
 
@@ -71,9 +68,9 @@ export default function NavBar(){
 
                             
 
-                            <NavLink to ={"/pricing"}><li className={styles.mPage}>Pricing</li></NavLink>
-                            <NavLink to ={"/about"}><li className={styles.mPage}>About</li></NavLink>
-                            <NavLink to = {"/contact"}><li className={styles.mPage}>Contact</li></NavLink>
+                            <NavLink to ={"/pricing"} onClick={closeMenu}><li className={styles.mPage}>Pricing</li></NavLink>
+                            <NavLink to ={"/about"} onClick={closeMenu}><li className={styles.mPage}>About</li></NavLink>
+                            <NavLink to = {"/contact"} onClick={closeMenu}><li className={styles.mPage}>Contact</li></NavLink>
                         </ul>
                        
                         <div className={styles.mSchduleContainer}>
