@@ -5,21 +5,21 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
  const ContantHeroOne = () => {
 
     const [nameValue, setNameValue] = useState <string>("")
-    const [nameError, setNameError] = useState(false); // Track if error name exists
+    const [nameError, setNameError] = useState<boolean>(false); // Track if error name exists
 
-    const [emailValue, setEmailValue] = useState ("")
+    const [emailValue, setEmailValue] = useState <string> ("")
     const [emailError, setEmailError] = useState<string | false> (false); // Track if error email exists
 
-    const [companyNameValue, setCompanyNameValue] = useState ("")
-    const [companyNameError, setCompanyNameError] = useState(false); // Track if error CompanyName exists
+    const [companyNameValue, setCompanyNameValue] = useState <string> ("")
+    const [companyNameError, setCompanyNameError] = useState<boolean>(false); // Track if error CompanyName exists
 
-    const [titleValue, setTitleValue] = useState ("")
-    const [titleError, setTitleError] = useState(false); // Track if error Title exists
+    const [titleValue, setTitleValue] = useState<string> ("")
+    const [titleError, setTitleError] = useState <boolean>(false); // Track if error Title exists
 
-    const [messageValue, setMessageValue] = useState ("")
-    const [messageError, setMessageError] = useState(false); // Track if error Message exists
+    const [messageValue, setMessageValue] = useState <string>("")
+    const [messageError, setMessageError] = useState <boolean>(false); // Track if error Message exists
 
-    const [isChecked, setIsChecked] = useState(false); // Track checkbox state
+    const [isChecked, setIsChecked] = useState<boolean>(false); // Track checkbox state
 
     const toggleCheckbox = () => {
         setIsChecked((prev) => !prev); // Toggle state
