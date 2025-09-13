@@ -4,11 +4,11 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
 
  const ContantHeroOne = () => {
 
-    const [nameValue, setNameValue] = useState("")
+    const [nameValue, setNameValue] = useState <string>("")
     const [nameError, setNameError] = useState(false); // Track if error name exists
 
     const [emailValue, setEmailValue] = useState ("")
-    const [emailError, setEmailError] = useState(false); // Track if error email exists
+    const [emailError, setEmailError] = useState<string | false> (false); // Track if error email exists
 
     const [companyNameValue, setCompanyNameValue] = useState ("")
     const [companyNameError, setCompanyNameError] = useState(false); // Track if error CompanyName exists
@@ -26,7 +26,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
     };
 
 
-    const manageName = (e) => {
+    const manageName = (e : React.ChangeEvent<HTMLInputElement> ) => {
         const inputNameValue = e.target.value;
         setNameValue(inputNameValue);
 
@@ -38,7 +38,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
         }
     };
 
-    const manageEmail = (e) => {
+    const manageEmail = (e : React.ChangeEvent<HTMLInputElement>) => {
         const inputEmailValue = e.target.value
         setEmailValue(inputEmailValue)
 
@@ -54,7 +54,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
 
     }
 
-    const manageCompanyName = (e) =>{
+    const manageCompanyName = (e : React.ChangeEvent<HTMLInputElement>) =>{
         const inputCompanyNameValue = e.target.value 
         setCompanyNameValue(inputCompanyNameValue)
 
@@ -66,7 +66,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
 
     }
 
-    const manageTitleValue = (e) => {
+    const manageTitleValue = (e : React.ChangeEvent<HTMLInputElement>) => {
         const inputTitleValue = e.target.value
         setTitleValue(inputTitleValue)
 
@@ -78,7 +78,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
     }
 
 
-    const manageMessageValue = (e) => {
+    const manageMessageValue = (e : React.ChangeEvent<HTMLInputElement>) => {
         const inputMessageValue = e.target.value
         setMessageValue(inputMessageValue)
 
@@ -89,7 +89,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
         }
     }
 
-    const formSubmitter = (e) => {
+    const formSubmitter = (e : React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
 
         let isValid = true;
