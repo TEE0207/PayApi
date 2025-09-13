@@ -2,7 +2,7 @@ import { useState } from "react"
 import styles from "./contactheroone.module.css"
 import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io"; 
 
- const ContantHeroOne = () => {
+ const ContantHeroOne: React.FC = () => {
 
     const [nameValue, setNameValue] = useState <string>("")
     const [nameError, setNameError] = useState<boolean>(false); // Track if error name exists
