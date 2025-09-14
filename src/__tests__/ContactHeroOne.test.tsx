@@ -22,7 +22,7 @@ describe( "ContactHeroOne", () => {
 
 
 it("shows validation errors when submitting empty form", async () => {
-    
+
   render(<ContactHeroOne />);
 
   const user = userEvent.setup();
@@ -33,6 +33,25 @@ it("shows validation errors when submitting empty form", async () => {
   // expect an error to appear
   expect(screen.getAllByText(/This field can't be empty/i)).toHaveLength(5);
 });
+
+it("validates email format", async () => {
+
+    render(<ContactHeroOne />)
+
+    const user = userEvent.setup()
+
+    const inputEmail = screen.getByPlaceholderText("Email Address")
+
+    await user.type(inputEmail, "not-an email")
+
+    const clickButton = screen.getByRole("button", {name : /submit/i})
+
+    await user.click(clickButton)
+
+    const errorMessage = screen.getByText(/Enter a valid email address/i)
+
+    expect(errorMessage).toBeInTheDocument()
+})
 
 
  
