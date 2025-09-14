@@ -89,56 +89,62 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
         }
     }
 
-    const formSubmitter = (e : React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
+    const formSubmitter = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-        let isValid = true;
+  let isValid = true;
 
-        if (nameValue.trim() === "") {
-            setNameError(true);
-            isValid = false;
-        }
+  if (nameValue.trim() === "") {
+    setNameError(true);
+    isValid = false;
+  }
 
-        if (emailValue.trim() === "") {
-            setEmailError("This field can't be empty");
-            isValid = false;
-        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
-            setEmailError("Enter a valid email address");
-            isValid = false;
-        }
+  if (emailValue.trim() === "") {
+    setEmailError("This field can't be empty");
+    isValid = false;
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
+    setEmailError("Enter a valid email address");
+    isValid = false;
+  }
 
-        if (companyNameValue.trim() === "") {
-            setCompanyNameError(true);
-            isValid = false;
-        }
-        if (titleValue.trim() === "") {
-            setTitleError(true);
-            isValid = false;
-        }
+  if (companyNameValue.trim() === "") {
+    setCompanyNameError(true);
+    isValid = false;
+  }
 
-        if (messageValue.trim() === "") {
-            setTitleError(true);
-            isValid = false;
-        }
-        if (isValid) {
-            console.log("Form submitted:", { nameValue, emailValue, companyNameValue, titleValue, messageValue});
-        }
+  if (titleValue.trim() === "") {
+    setTitleError(true);
+    isValid = false;
+  }
 
-         // Reset form values after successful submission
-         setNameValue("");
-         setEmailValue("");
-         setCompanyNameValue("");
-         setTitleValue("");
-         setMessageValue("")
+  if (messageValue.trim() === "") {
+    setMessageError(true);
+    isValid = false;
+  }
 
+  if (isValid) {
+    console.log("Form submitted:", {
+      nameValue,
+      emailValue,
+      companyNameValue,
+      titleValue,
+      messageValue,
+    });
 
-         // ✅ Clear all error states
-        setNameError(false);
-        setEmailError(false);
-        setCompanyNameError(false);
-        setTitleError(false);
-        setMessageError(false)
-    }
+    // ✅ Only reset values and errors on success
+    setNameValue("");
+    setEmailValue("");
+    setCompanyNameValue("");
+    setTitleValue("");
+    setMessageValue("");
+
+    setNameError(false);
+    setEmailError(false);
+    setCompanyNameError(false);
+    setTitleError(false);
+    setMessageError(false);
+  }
+};
 
     return(
         <div className={styles.allContentContainer}>
@@ -178,7 +184,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
                             onChange={manageCompanyName}
                             className={`${styles.inputField} ${companyNameError ? styles.error : ""}`}
                             />
-                        {companyNameError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
+                        {companyNameError && <p className={styles.errorMessage}>This field can't be empty</p>}
 
                     </div>
 
@@ -191,7 +197,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
                         onChange={manageTitleValue}
                         className={`${styles.inputField} ${titleError ? "error" : ""}`}
                         />
-                        {titleError && <p className={styles.errorMessage}>This  Title Field cannot be empty</p>}
+                        {titleError && <p className={styles.errorMessage}>This field can't be empty</p>}
                     </div>
 
                     <div className={styles.messageContainer}>
@@ -203,7 +209,7 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
                         onChange={manageMessageValue}
                         className={`${styles.MessageInputField} ${messageError ? "error" : ""}`}
                         />
-                        {messageError && <p className={styles.errorMessage}>This Field cannot be empty</p>}
+                        {messageError && <p className={styles.errorMessage}>This field can't be empty</p>}
                     </div>
                 </div>
 
