@@ -54,5 +54,55 @@ it("validates email format", async () => {
 })
 
 
+it("checkbox toggles",async ()=>{
+
+    render(<ContactHeroOne />)
+
+    const user = userEvent.setup()
+    
+    const checkbox = screen.getByRole("checkbox") as HTMLInputElement
+    
+    expect(checkbox.checked).toBe(false)
+
+    await user.click(checkbox)
+
+   expect(checkbox.checked).toBe(true)
+
+    await user.click(checkbox)
+
+    expect(checkbox.checked).toBe(false)
+
+
+})
+
+
+ test('submits form when valid and clears fields', async () => {
+    render(<ContactHeroOne />);
+    const user = userEvent.setup();
+    const spy = jest.spyOn(console, 'log').mockImplementation(() => {});
+    await user.type(screen.getByPlaceholderText('Name'), 'John Doe');
+    await user.type(screen.getByPlaceholderText('Email Address'), 'john@example.com');
+    await user.type(screen.getByPlaceholderText('Company Name'), 'ACME');
+    await user.type(screen.getByPlaceholderText('Title'), 'Manager');
+    await user.type(screen.getByPlaceholderText('Message'), 'Hello');
+    await user.click(screen.getByRole('button', { name: /submit/i }));
+
+    expect(spy).toHaveBeenCalledWith(
+      'Form submitted:',
+      expect.objectContaining({
+        nameValue: 'John Doe',
+        emailValue: 'john@example.com',
+        companyNameValue: 'ACME',
+        titleValue: 'Manager',
+        messageValue: 'Hello'
+      })
+    );
+
+    expect((screen.getByPlaceholderText('Name') as HTMLInputElement).value).toBe('');
+    expect((screen.getByPlaceholderText('Email Address') as HTMLInputElement).value).toBe('');
+    spy.mockRestore();
+  });
+
+
  
 })
