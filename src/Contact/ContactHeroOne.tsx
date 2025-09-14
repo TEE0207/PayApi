@@ -2,7 +2,7 @@ import { useState } from "react"
 import styles from "./contactheroone.module.css"
 import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io"; 
 
- const ContantHeroOne: React.FC = () => {
+ const ContactHeroOne: React.FC = () => {
 
     const [nameValue, setNameValue] = useState <string>("")
     const [nameError, setNameError] = useState<boolean>(false); // Track if error name exists
@@ -249,4 +249,4 @@ import { IoMdCheckbox, IoMdSquareOutline } from "react-icons/io";
     )
 }
 
-export default ContantHeroOne
+export default ContactHeroOne
